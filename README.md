@@ -28,23 +28,24 @@ I'm on a journey to create innovative digital experiences through **K_Wallet** -
 
 <div align="center">
   
-  ### 🔮 Programming Languages
+  ### 🔮 Languages
   
   <div align="center" style="background-color: rgba(255, 255, 255, 0.05); border-radius: 10px; padding: 20px; margin: 10px 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="https://skillicons.dev/icons?i=python,java,javascript,cpp,go,c,html,css" />
+    <img src="https://skillicons.dev/icons?i=python,java,javascript,cpp,c,html,css,dart" />
   </div>
   
   ### 🏗️ Frameworks & Technologies
   
   <div align="center" style="background-color: rgba(255, 255, 255, 0.05); border-radius: 10px; padding: 20px; margin: 10px 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,mongodb,postgresql,git,github,linux" />
+    <img src="https://skillicons.dev/icons?i=react,nodejs,git,github,linux,flutter" />
   </div>
   
   ### 🧰 Tools & Platforms
   
   <div align="center" style="background-color: rgba(255, 255, 255, 0.05); border-radius: 10px; padding: 20px; margin: 10px 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
     <img src="https://skillicons.dev/icons?i=vscode,bash,arduino,raspberrypi,haskell" />
-  </div>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wireshark/wireshark-original.svg" width="48" height="48"/>
+</div>
   
 </div>
 
