@@ -1,10 +1,10 @@
 <div align="center">
   
-👨‍💻 Venkata Lakshmi Narasimha Kushal Kurapati
+# 👨‍💻 Kurapati Venkata Lakshmi Narasimha Kushal
 
 <div align="center">
   
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=0CE82B&center=true&vCenter=true&width=435&lines=Digital+Explorer;Code+Artisan;Problem+Solver;Flutter+Developer;OTB+Thinker;Java+Enthusiast)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=0CE82B&center=true&vCenter=true&width=435&lines=Computer+Science+Student;Full+Stack+Developer;Problem+Solver;Research+Enthusiast;DSA+Practitioner)](https://git.io/typing-svg)
 
 </div>
 
@@ -18,74 +18,90 @@
 
 </div>
 
-## Current Mission
+## 🎓 Academic Journey
 
-> "Building tomorrow's solutions while learning today's technologies"
+**B.Tech Computer Science and Engineering** | Amrita Vishwa Vidyapeetham, Coimbatore  
+*2023 - 2027 | CGPA: 7.64*
 
-I'm on a journey to create innovative digital experiences through **K_Wallet** - a project close to my heart that combines my passion for technology and practical solutions.
+**Core Coursework**: Data Structures & Algorithms, Database Management Systems, Object Oriented Programming, User Interface Design, Computer Organization & Architecture, Operating Systems
 
-## 🛠️ Tech Arsenal
+## 🔬 Current Research
+
+**Student Researcher** | Live-in-Labs *(Dec 2024 – Present)*
+- Conducting field studies in remote villages using HCD and PRA methodologies
+- Collaborating with **Sustainovators** team to assess socio-economic challenges
+- Developing sustainable interventions for rural infrastructure and well-being
+
+## 🚀 Featured Projects
+
+### 🏎️ Luxe Ride Rentals
+**Tech Stack**: HTML, CSS, JavaScript, Node.js, Electron  
+Cross-platform car rental application with dynamic UI components and seamless reservation system.
+
+### 🔄 SwapCache - Adaptive Cache Management  
+**Tech Stack**: Python, Matplotlib, Streamlit  
+- Dynamic cache system with hybrid LRU/LFU eviction achieving **15% higher hit rates**
+- Multi-threaded performance: **18M operations/second**
+- Crash recovery with zero data loss across file, Redis, and MongoDB backends
+
+### 🛡️ Cy_shabala – PII Detection & Masking Sentinel
+**Tech Stack**: HTML, CSS, JavaScript, Python, Node.js, Canvas API, PDF.js  
+Privacy-focused web tool for detecting and masking Personally Identifiable Information using NLP models and regex patterns.
+
+## 🛠️ Technical Arsenal
 
 <div align="center">
   
-  ### 🔮 Languages
+  ### Programming Languages
   
-  <div align="center" style="background-color: rgba(255, 255, 255, 0.05); border-radius: 10px; padding: 20px; margin: 10px 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+  <div align="center">
     <img src="https://skillicons.dev/icons?i=python,java,javascript,cpp,c,html,css,dart" />
   </div>
   
-  ### 🏗️ Frameworks & Technologies
+  ### Frameworks & Technologies
   
-  <div align="center" style="background-color: rgba(255, 255, 255, 0.05); border-radius: 10px; padding: 20px; margin: 10px 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+  <div align="center">
     <img src="https://skillicons.dev/icons?i=react,nodejs,git,github,linux,flutter" />
   </div>
   
-  ### 🧰 Tools & Platforms
+  ### Development Tools
   
-  <div align="center" style="background-color: rgba(255, 255, 255, 0.05); border-radius: 10px; padding: 20px; margin: 10px 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="https://skillicons.dev/icons?i=vscode,bash,arduino,raspberrypi,haskell" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wireshark/wireshark-original.svg" width="48" height="48"/>
-</div>
+  <div align="center">
+    <img src="https://skillicons.dev/icons?i=vscode,bash,haskell" />
+  </div>
   
 </div>
 
-## 💻 Core Specialties
+### 📚 Libraries & Frameworks
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+## 📈 Problem Solving Profile
 
 <div align="center">
   
-  ![Algorithms & Data Structures](https://img.shields.io/badge/Algorithms_&_Data_Structures-150+_Problems-5D4F85?style=for-the-badge)
-  ![AI & ML Applications](https://img.shields.io/badge/AI_&_ML-Building_Intelligent_Systems-FF6F00?style=for-the-badge)
-  ![Android Development](https://img.shields.io/badge/Android_Development-Native_&_Cross_Platform-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-  ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Network_&_Application_Security-4053D6?style=for-the-badge&logo=shield&logoColor=white)
+  ![DSA Progress](https://img.shields.io/badge/DSA_Problems-180+_Solved-success?style=for-the-badge)
+  ![Algorithms](https://img.shields.io/badge/Focus-Algorithms_&_Data_Structures-blue?style=for-the-badge)
   
 </div>
 
-## 🌱 Growing Knowledge Garden
+## 🏆 Certifications & Learning
 
-Currently nurturing my skills in:
-- **Flutter** for cross-platform excellence
-- **React** for dynamic web experiences
-- **Wireshark** for network protocol analysis
-
-## 🔍 Looking For
-
-Passionate developers interested in collaborating on **K_Wallet**. If you're excited about creating impactful solutions, let's connect!
-
-## 💬 Tech Conversations
-
-I enjoy discussions about:
-- Object-oriented programming with Java
-- Python for automation and data analysis
-- System-level programming with C/C++
-- Cross-platform development strategies
+- **HackerRank Java (Basics)** - Programming Fundamentals
+- **Introduction to Cyber Security** - Security Principles
+- **Tools of the Trade: Linux and SQL** - System Administration
+- **Google AI Essentials** - Artificial Intelligence Fundamentals
 
 ## 📊 GitHub Analytics
 
 <div align="center">
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=kvlnk12305&show_icons=true&locale=en&layout=compact&theme=radical)
-
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kvlnk12305&show_icons=true&locale=en&theme=radical&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=kvlnk12305&show_icons=true&locale=en&layout=compact&theme=radical)
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=kvlnk12305&theme=radical)
 
@@ -95,19 +111,29 @@ I enjoy discussions about:
 
 ![Trophies](https://github-profile-trophy.vercel.app/?username=kvlnk12305&theme=darkhub&column=4&margin-w=15&margin-h=15)
 
-## 🐍 Contribution Snake
+## 🐍 Contribution Visualization
 
 ![Snake animation](https://github.com/kvlnk12305/kvlnk12305/blob/output/github-contribution-grid-snake.svg)
 
-## 📫 Digital Outpost
+## 🎯 Current Focus
 
-- **Email**: kls2edmentre@gmail.com
-- **Instagram**: [kvlnkushal_2305](https://instagram.com/kvlnkushal_2305)
+- **Honing of Core Skills**
+- **Skill Development**
+- **Open Source**
+
+## 📫 Let's Connect
+
+- **📧 Email**: kls2edmentre@gmail.com
+- **🔗 LinkedIn**: [Connect with me](https://linkedin.com/in/your-profile)
+- **💻 LeetCode**: [kurapatikushalnarasimha95](https://leetcode.com/u/kurapatikushalnarasimha95/)
+- **📷 Instagram**: [kvlnkushal_2305](https://instagram.com/kvlnkushal_2305)
 
 <div align="center">
 
 ---
 
-### "Code is like humor. When you have to explain it, it's bad." – Cory House
+### "The best way to predict the future is to create it." – Peter Drucker
+
+*Always learning, always building, always growing* 🌱
 
 </div>
