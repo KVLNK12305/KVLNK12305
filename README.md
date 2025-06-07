@@ -27,7 +27,7 @@
 
 ## 🔬 Current Research
 
-**Student Researcher** | Live-in-Labs *(Dec 2024 – Present)*
+**Student Researcher** | Live-in-Labs *(Dec 2024 – May 2025)*
 - Conducting field studies in remote villages using HCD and PRA methodologies
 - Collaborating with **Sustainovators** team to assess socio-economic challenges
 - Developing sustainable interventions for rural infrastructure and well-being
