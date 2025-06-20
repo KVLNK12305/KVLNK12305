@@ -11,7 +11,7 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=KVLNK12305&style=for-the-badge&color=6A5ACD" alt="Profile Views"/>
   
-  [![LeetCode](https://img.shields.io/badge/LeetCode-180+_Problems-FFA116?logo=leetcode&logoColor=white&style=for-the-badge)](https://leetcode.com/u/kurapatikushalnarasimha95/)
+  [![LeetCode](https://img.shields.io/badge/LeetCode-200+_Problems-FFA116?logo=leetcode&logoColor=white&style=for-the-badge)](https://leetcode.com/u/kurapatikushalnarasimha95/)
 </p>
 
 ---
