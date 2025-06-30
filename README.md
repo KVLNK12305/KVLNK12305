@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  [![LeetCode](https://img.shields.io/badge/LeetCode-200+_Problems-FFA116?logo=leetcode&logoColor=white&style=for-the-badge)](https://leetcode.com/u/kurapatikushalnarasimha95/)
+  <a href="https://leetcode.com/u/kurapatikushalnarasimha95/"><img src="https://img.shields.io/badge/LeetCode-200+_Problems-FFA116?logo=leetcode&logoColor=white&style=for-the-badge" alt="LeetCode"/></a>
   <img src="https://img.shields.io/badge/DSA_Problems-180+_Solved-28a745?style=for-the-badge&logo=algorithm&logoColor=white" alt="DSA Problems"/>
   <img src="https://img.shields.io/badge/Research-Active-FF6B35?style=for-the-badge&logo=microscope&logoColor=white" alt="Research Status"/>
 </p>
@@ -27,6 +27,8 @@
 ---
 
 ## 🎯 Professional Overview
+
+<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
 
 <table>
 <tr>
@@ -52,6 +54,10 @@
 </tr>
 </table>
 
+<div align="center">
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
+</div>
+
 ---
 
 ## 🎓 Academic Excellence
@@ -66,31 +72,17 @@
 
 ### 📚 **Core Academic Specializations**
 
+- **Data Structures & Algorithms** - Advanced Problem Solving & Optimization Techniques
+- **Database Management Systems** - Query Optimization & System Design
+- **Object Oriented Programming** - Design Patterns & Software Architecture
+- **User Interface Design** - UX/UI Principles & Frontend Development
+- **Computer Organization & Architecture** - System Level Programming
+- **Operating Systems** - Process Management & Memory Management
+
+<br clear="left"/>
+
 <div align="center">
-
-```mermaid
-mindmap
-  root((Core Coursework))
-    Data Structures & Algorithms
-      Advanced Problem Solving
-      Optimization Techniques
-    Database Management Systems
-      Query Optimization
-      System Design
-    Object Oriented Programming
-      Design Patterns
-      Software Architecture
-    User Interface Design
-      UX/UI Principles
-      Frontend Development
-    Computer Organization & Architecture
-      System Level Programming
-      Hardware-Software Interface
-    Operating Systems
-      Process Management
-      Memory Management
-```
-
+<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="100">
 </div>
 
 ---
@@ -101,6 +93,8 @@ mindmap
 
 ### **🏛️ Live-in-Labs Research Initiative**
 *Student Researcher | December 2024 – May 2025*
+
+<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100">
 
 </div>
 
@@ -132,9 +126,12 @@ HCD & PRA Implementation
 - 📊 Collaborating with **Sustainovators** team to assess socio-economic challenges and infrastructure gaps
 - 🚀 Developing sustainable interventions for rural infrastructure and community well-being enhancement
 
+
 ---
 
 ## 🚀 Featured Project Portfolio
+
+<img align="right" alt="Projects" width="300" src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif">
 
 <div align="center">
 
@@ -209,7 +206,6 @@ HCD & PRA Implementation
 
 ### **🛡️ Cy_shabala – PII Detection & Masking Sentinel**
 *Privacy-First Data Protection Platform*
-
 </div>
 
 <table>
@@ -243,11 +239,17 @@ HCD & PRA Implementation
 </tr>
 </table>
 
+<div align="center">
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
+</div>
+
 ---
 
 ## 🛠️ Technical Arsenal
 
 <div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/212257463-4d082cb4-7483-4eaf-bc25-6dde2628aabd.gif" width="100">
 
 ### **💻 Programming Languages**
 
@@ -279,6 +281,8 @@ HCD & PRA Implementation
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
+<img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="100"><img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="100"><img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100">
+
 </div>
 
 ---
@@ -286,6 +290,8 @@ HCD & PRA Implementation
 ## 📈 Problem Solving Excellence
 
 <div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="300">
 
 ### **🎯 Competitive Programming Metrics**
 
@@ -322,6 +328,8 @@ HCD & PRA Implementation
 
 <div align="center">
 
+<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100">
+
 <table>
 <tr>
 <td align="center" width="50%">
@@ -357,6 +365,8 @@ HCD & PRA Implementation
 
 <div align="center">
 
+<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100">
+
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=KVLNK12305&show_icons=true&locale=en&theme=radical&count_private=true&include_all_commits=true&card_width=400" />
 <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=KVLNK12305&theme=radical&card_width=400" />
 
@@ -373,6 +383,8 @@ HCD & PRA Implementation
 
 <div align="center">
 
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100">
+
 ![Trophies](https://github-profile-trophy.vercel.app/?username=KVLNK12305&theme=darkhub&column=4&margin-w=15&margin-h=15&no-bg=true)
 
 </div>
@@ -387,6 +399,8 @@ HCD & PRA Implementation
 
 *Dynamic visualization of contribution patterns and coding consistency*
 
+<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100"><img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="100"><img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="100">
+
 </div>
 
 ---
@@ -394,6 +408,8 @@ HCD & PRA Implementation
 ## 🎯 Current Strategic Focus Areas
 
 <div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="200">
 
 <table>
 <tr>
@@ -425,6 +441,8 @@ HCD & PRA Implementation
 ## 🌐 Professional Network & Contact
 
 <div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/212257463-4d082cb4-7483-4eaf-bc25-6dde2628aabd.gif" width="100">
 
 ### **📫 Connect & Collaborate**
 
@@ -467,9 +485,13 @@ HCD & PRA Implementation
 
 **🌱 Always learning, always building, always growing**
 
+<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100">
+
 ---
 
 ### **⚡ Developer Insights & Humor**
+
+<img align="left" src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" width="200">
 
 **🐛➡️✨ Debug Philosophy**: *"I solve bugs faster than I solve what to have for dinner. At least one of them compiles without errors!"*
 
@@ -477,7 +499,11 @@ HCD & PRA Implementation
 
 **🎯 Current Operational Status**: *"Turning caffeine into code since 2023. Side effects may include: excessive semicolons and an unhealthy relationship with my IDE."*
 
+<br clear="left"/>
+
 <sub>⚠️ **Disclaimer**: *May spontaneously start explaining algorithms during casual conversations. Approach with caution and maybe some snacks.* 🍕</sub>
+
+<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100"><img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100"><img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100">
 
 ---
 
