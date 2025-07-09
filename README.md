@@ -1,10 +1,8 @@
-<div align="center">
-
 # 👨‍💻 Kurapati Venkata Lakshmi Narasimha Kushal
 
 <div align="center">
   
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=0CE82B&center=true&vCenter=true&width=600&lines=CS-UG;Problem+Solver;Research+Enthusiast;DSA+Practitioner;Cyber+Surfer;Spotify+Coffee+Survior)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=0CE82B&center=true&vCenter=true&width=600&lines=CS-UG;Problem+Solver;Research+Enthusiast;DSA+Practitioner;Cyber+Surfer;Spotify+Coffee+Survivor)](https://git.io/typing-svg)
 
 </div>
 
@@ -16,47 +14,30 @@
 
 <p align="center">
   <a href="https://leetcode.com/u/kurapatikushalnarasimha95/"><img src="https://img.shields.io/badge/LeetCode-200+_Problems-FFA116?logo=leetcode&logoColor=white&style=for-the-badge" alt="LeetCode"/></a>
-  <img src="https://img.shields.io/badge/DSA_Problems-180+_Solved-28a745?style=for-the-badge&logo=algorithm&logoColor=white" alt="DSA Problems"/>
+  <img src="https://img.shields.io/badge/DSA_Problems-100+_Solved-28a745?style=for-the-badge&logo=algorithm&logoColor=white" alt="DSA Problems"/>
   <img src="https://img.shields.io/badge/Research-Active-FF6B35?style=for-the-badge&logo=microscope&logoColor=white" alt="Research Status"/>
 </p>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
-
-</div>
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4380-b5b2-6d9b3c6e1c24.gif" width="100%" alt="Coding Animation">
 
 ---
 
 ## 🎯 Professional Overview
 
-<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
-
-<table>
-<tr>
-<td width="50%">
+<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/221352987-cbb7d6d3-4e9e-4e32-b6b4-c9d9f0e4a6e8.gif">
 
 ### 💼 **Current Role**
 **Computer Science Engineering Student**  
-*Amrita Vishwa Vidyapeetham*
+*Amrita Vishwa Vidyapeetom*
 
 **Research Enthusiast** specializing in rural development solutions and advanced cache management systems. Passionate about leveraging technology for sustainable social impact.
 
-</td>
-<td width="50%">
-
 ### 📊 **Key Metrics**
 - 🎓 **Academic Performance**: 7.64 CGPA
-- 🧩 **Problem Solving**: 380+ Problems Solved
+- 🧩 **Problem Solving**: 210+ Problems Solved
 - 🔬 **Research Projects**: 1 Active
 - 💻 **Featured Projects**: 3 Major
 - 🏆 **Certifications**: 4 Professional
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
-</div>
 
 ---
 
@@ -79,12 +60,6 @@
 - **Computer Organization & Architecture** - System Level Programming
 - **Operating Systems** - Process Management & Memory Management
 
-<br clear="left"/>
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="100">
-</div>
-
 ---
 
 ## 🔬 Research & Innovation
@@ -93,8 +68,6 @@
 
 ### **🏛️ Live-in-Labs Research Initiative**
 *Student Researcher | December 2024 – May 2025*
-
-<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100">
 
 </div>
 
@@ -126,19 +99,14 @@ HCD & PRA Implementation
 - 📊 Collaborating with **Sustainovators** team to assess socio-economic challenges and infrastructure gaps
 - 🚀 Developing sustainable interventions for rural infrastructure and community well-being enhancement
 
-
 ---
 
 ## 🚀 Featured Project Portfolio
 
 <img align="right" alt="Projects" width="300" src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif">
 
-<div align="center">
-
 ### **🏎️ Luxe Ride Rentals**
 *Enterprise-Grade Car Rental Management System*
-
-</div>
 
 <table>
 <tr>
@@ -169,12 +137,8 @@ HCD & PRA Implementation
 
 ---
 
-<div align="center">
-
 ### **🔄 SwapCache - Adaptive Cache Management**
 *High-Performance Caching Solution*
-
-</div>
 
 <table>
 <tr>
@@ -202,11 +166,8 @@ HCD & PRA Implementation
 
 ---
 
-<div align="center">
-
 ### **🛡️ Cy_shabala – PII Detection & Masking Sentinel**
 *Privacy-First Data Protection Platform*
-</div>
 
 <table>
 <tr>
@@ -227,21 +188,13 @@ HCD & PRA Implementation
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=biased-square&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)
-
-**Specialized APIs**
-- Canvas API
-- PDF.js
 
 </td>
 </tr>
 </table>
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
-</div>
 
 ---
 
@@ -249,39 +202,38 @@ HCD & PRA Implementation
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212257463-4d082cb4-7483-4eaf-bc25-6dde2628aabd.gif" width="100">
-
 ### **💻 Programming Languages**
 
-<div align="center">
-<img src="https://skillicons.dev/icons?i=python,java,javascript,cpp,c,html,css,dart" />
-</div>
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 
 ### **🚀 Frameworks & Technologies**
 
-<div align="center">
-<img src="https://skillicons.dev/icons?i=react,nodejs,git,github,linux,flutter" />
-</div>
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
-### **⚙️ Development Tools**
+### **🧰 Development Tools**
 
-<div align="center">
-<img src="https://skillicons.dev/icons?i=vscode,bash,haskell" />
-</div>
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Haskell](https://img.shields.io/badge/Haskell-5D4F85?style=for-the-badge&logo=haskell&logoColor=white)
 
-</div>
-
-### 📚 **Libraries & Specialized Frameworks**
-
-<div align="center">
+### **📚 Libraries & Specialized Frameworks**
 
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-<img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="100"><img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="100"><img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100">
 
 </div>
 
@@ -290,8 +242,6 @@ HCD & PRA Implementation
 ## 📈 Problem Solving Excellence
 
 <div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="300">
 
 ### **🎯 Competitive Programming Metrics**
 
@@ -328,8 +278,6 @@ HCD & PRA Implementation
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100">
-
 <table>
 <tr>
 <td align="center" width="50%">
@@ -365,15 +313,13 @@ HCD & PRA Implementation
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100">
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=KVLNK12305&show_icons=true&locale=en&theme=radical&count_private=true&include_all_commits=true&border_radius=10" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=KVLNK12305&theme=radical&border_radius=10" />
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=KVLNK12305&show_icons=true&locale=en&theme=radical&count_private=true&include_all_commits=true&card_width=400" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=KVLNK12305&theme=radical&card_width=400" />
-
-<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs?username=KVLNK12305&show_icons=true&locale=en&layout=compact&theme=radical&card_width=600" />
+<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs?username=KVLNK12305&show_icons=true&locale=en&layout=compact&theme=radical&border_radius=10" />
 
 ### **📈 Contribution Activity Graph**
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=KVLNK12305&theme=react-dark&hide_border=true&area=true)
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=KVLNK12305&theme=react-dark&hide_border=true&area=true&point_color=0CE82B&line_color=0CE82B&color=0CE82B)
 
 </div>
 
@@ -383,9 +329,7 @@ HCD & PRA Implementation
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100">
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=KVLNK12305&theme=darkhub&column=4&margin-w=15&margin-h=15&no-bg=true)
+![Trophies](https://github-profile-trophy.vercel.app/?username=KVLNK12305&theme=radical&column=3&margin-w=15&margin-h=15&no-bg=true&no-frame=true&rank=-C,-??)
 
 </div>
 
@@ -395,11 +339,13 @@ HCD & PRA Implementation
 
 <div align="center">
 
-![Snake animation](https://github.com/KVLNK12305/KVLNK12305/blob/output/github-contribution-grid-snake.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KVLNK12305/KVLNK12305/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KVLNK12305/KVLNK12305/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/KVLNK12305/KVLNK12305/output/github-contribution-grid-snake.svg">
+</picture>
 
 *Dynamic visualization of contribution patterns and coding consistency*
-
-<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100"><img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="100"><img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="100">
 
 </div>
 
@@ -408,8 +354,6 @@ HCD & PRA Implementation
 ## 🎯 Current Strategic Focus Areas
 
 <div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="200">
 
 <table>
 <tr>
@@ -442,34 +386,12 @@ HCD & PRA Implementation
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212257463-4d082cb4-7483-4eaf-bc25-6dde2628aabd.gif" width="100">
-
 ### **📫 Connect & Collaborate**
 
-<table>
-<tr>
-<td align="center" width="25%">
-
 [![Email](https://img.shields.io/badge/Email-kls2edmentre%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kls2edmentre@gmail.com)
-
-</td>
-<td align="center" width="25%">
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Professional_Profile-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/venkata-lakshmi-narasimha-kushal-kurapati-729ab4289/)
-
-</td>
-<td align="center" width="25%">
-
 [![LeetCode](https://img.shields.io/badge/LeetCode-Coding_Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/kurapatikushalnarasimha95/)
-
-</td>
-<td align="center" width="25%">
-
 [![Instagram](https://img.shields.io/badge/Instagram-kvlnkushal__2305-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/kvlnkushal_2305)
-
-</td>
-</tr>
-</table>
 
 </div>
 
@@ -477,21 +399,13 @@ HCD & PRA Implementation
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100">
-
 ### **💭 Philosophy & Vision**
 
 *"The best way to predict the future is to create it."* – **Peter Drucker**
 
 **🌱 Always learning, always building, always growing**
 
-<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100">
-
----
-
 ### **⚡ Developer Insights & Humor**
-
-<img align="left" src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" width="200">
 
 **🐛➡️✨ Debug Philosophy**: *"I solve bugs faster than I solve what to have for dinner. At least one of them compiles without errors!"*
 
@@ -499,14 +413,12 @@ HCD & PRA Implementation
 
 **🎯 Current Operational Status**: *"Turning caffeine into code since 2023. Side effects may include: excessive semicolons and an unhealthy relationship with my IDE."*
 
-<br clear="left"/>
-
 <sub>⚠️ **Disclaimer**: *May spontaneously start explaining algorithms during casual conversations. Approach with caution and maybe some snacks.* 🍕</sub>
 
-<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100"><img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100"><img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100">
+</div>
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%">
-
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&animation=fadeIn" width="100%">
 </div>
