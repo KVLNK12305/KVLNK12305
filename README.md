@@ -73,7 +73,7 @@
 
 <table>
 <tr>
-<td width="30%" align="center">
+<td width="40%" align="center">
 
 **🌍 Research Domain**  
 Rural Infrastructure & Socio-Economic Development
