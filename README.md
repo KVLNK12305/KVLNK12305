@@ -47,7 +47,7 @@
 
 | **Degree** | **Institution** | **Duration** | **Performance** |
 |:---:|:---:|:---:|:---:|
-| **B.Tech Computer Science and Engineering** | Amrita Vishwa Vidyapeetham, Coimbatore | 2023 - 2027 | **CGPA: 7.64** |
+| **B.Tech Computer Science and Engineering** | Amrita Vishwa Vidyapeetham, Coimbatore | 2023 - 2027 | **CGPA: 7.7** |
 
 </div>
 
