@@ -35,7 +35,7 @@
 **🎓 Computer Science Engineering Student**  
 📍 *Amrita Vishwa Vidyapeetham, Coimbatore*
 
-**🔬 Research Enthusiast** specializing in **rural development solutions** and **advanced cache management systems**. Passionate about leveraging technology for sustainable social impact and building scalable systems.
+**🔬 Research Enthusiast** specializing in **sustainable solutions** and **advanced cache management systems**. Passionate about leveraging technology for sustainable social impact and building scalable systems.
 
 ### 📊 Quick Stats
 
