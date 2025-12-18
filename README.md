@@ -519,7 +519,7 @@ const kushal = {
 
 <br>
 
-**Thank you for visiting my profile! Let's build something amazing together! 🚀**
+**Thank you for visiting my profile! Let's build something amazing together!**
 
 </div>
 
