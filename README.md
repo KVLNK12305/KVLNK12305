@@ -1,25 +1,17 @@
-# 👨‍💻 Kurapati Venkata Lakshmi Narasimha Kushal 
+# 👨‍💻 Kurapati Venkata Lakshmi Narasimha Kushal
 
 <div align="center">
-  
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=800&height=100&lines=Computer+Science+Engineering+Student;Research+Enthusiast+%7C+Problem+Solver;200%2B+LeetCode+Problems+Solved;Building+Solutions+for+Tomorrow)](https://git.io/typing-svg)
 
-</div>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=800&height=100&lines=Computer+Science+Engineering+Student;Builder+%7C+Problem+Solver+%7C+Researcher;380%2B+DSA+Problems+Solved;Currently+Shipping%3A+Flutter+%2B+Observability+Tooling)](https://git.io/typing-svg)
 
-<div align="center">
-  
 ![Profile Views](https://komarev.com/ghpvc/?username=KVLNK12305&style=for-the-badge&color=00d9ff&label=PROFILE+VIEWS)
 ![GitHub Followers](https://img.shields.io/github/followers/KVLNK12305?label=FOLLOWERS&style=for-the-badge&color=00d9ff&logo=github)
 ![GitHub Stars](https://img.shields.io/github/stars/KVLNK12305?label=TOTAL+STARS&style=for-the-badge&color=00d9ff&logo=github)
 
-</div>
-
-<div align="center">
-  
 [![LeetCode](https://img.shields.io/badge/LeetCode-200+_Problems-FFA116?logo=leetcode&logoColor=white&style=for-the-badge)](https://leetcode.com/u/kurapatikushalnarasimha95/)
-![DSA Problems](https://img.shields.io/badge/DSA_Master-180+_Solved-00d9ff?style=for-the-badge&logo=algorithm&logoColor=white)
-![Research](https://img.shields.io/badge/Research-Active_Development-FF6B35?style=for-the-badge&logo=microscope&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Open_to_Collaborate-success?style=for-the-badge&logo=handshake&logoColor=white)
+![DSA Practice](https://img.shields.io/badge/DSA_Practice-180+_Problems-00d9ff?style=for-the-badge)
+![Research](https://img.shields.io/badge/Research-1_Project_Completed-FF6B35?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Open_to_Collaborate-success?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
 
@@ -29,32 +21,32 @@
 
 ## 🎯 About Me
 
-<img align="right" alt="Coding GIF" width="420" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGk1bGJqamQ3NzJ2N2kxdW5xaW93OGh0aHQ5NGh0OXVpZWl1NzYyYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SWoSkN6DxTszqIKEqv/giphy.gif">
+<img align="right" alt="Coding GIF" width="380" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGk1bGJqamQ3NzJ2N2kxdW5xaW93OGh0aHQ5NGh0OXVpZWl1NzYyYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SWoSkN6DxTszqIKEqv/giphy.gif">
 
 ### 💼 Current Status
-**🎓 Computer Science Engineering Student**  
+**🎓 Computer Science Engineering Student**
 📍 *Amrita Vishwa Vidyapeetham, Coimbatore*
 
-**🔬 Research Enthusiast** specializing in **sustainable solutions** and **advanced cache management systems**. Passionate about leveraging technology for sustainable social impact and building scalable systems.
+I build things end-to-end — from mobile apps to the dashboards that monitor them — and I like understanding systems down to the protocol level, not just the framework level.
 
 ### 📊 Quick Stats
 
 ```text
-🎓 CGPA: 7.7/10
-🧩 Problems Solved: 380+
-🔬 Active Research Projects: 1
-💻 Major Projects Deployed: 3+
-🏆 Professional Certifications: 4
+🎓 CGPA: 7.7 / 10
+🧩 Problems Solved: 380+  (LeetCode + DSA practice)
+🔬 Research: 1 completed field project (Live-in-Labs)
+💻 Projects: 4  (2 shipped, 2 in active development)
+🏆 Certifications: 4
 🌟 GitHub Contributions: Daily
 ```
 
-### 🎯 What I'm Up To
+### 🎯 What I'm Up To Right Now
 
-- 🔭 Currently working on **Advanced Cache Management Systems**
-- 🌱 Learning **System Design** and **Distributed Systems**
-- 👯 Looking to collaborate on **Open Source Projects**
-- 💬 Ask me about **DSA, Python, Java, Web Development**
-- ⚡ Fun fact: **I debug code faster than I choose what to eat!**
+- 🔭 Building a **Flutter productivity app** (Riverpod + Isar) and a **Streamlit observability dashboard** wiring together Grafana, Loki, and Prometheus
+- 🌱 Working through a self-directed **90 Days of CS** track — networking internals, systems programming in Rust, and purple-team security
+- 👯 Looking to collaborate on **open-source dev tooling** and **DSA prep resources**
+- 💬 Ask me about **DSA, Python, Flutter, or observability stacks**
+- ⚡ Fun fact: **I debug code faster than I choose what to eat for lunch**
 
 ---
 
@@ -62,28 +54,62 @@
 
 <div align="center">
 
-### 🏛️ **B.Tech in Computer Science & Engineering**
-**Amrita Vishwa Vidyapeetham, Coimbatore** | 2023 - 2027
+### 🏛️ B.Tech in Computer Science & Engineering
+**Amrita Vishwa Vidyapeetham, Coimbatore** · 2023 – 2027
 
 <img src="https://img.shields.io/badge/CGPA-7.7%2F10-brightgreen?style=for-the-badge" alt="CGPA">
 
 </div>
 
 <details>
-<summary><b>📚 Core Competencies & Coursework (Click to expand)</b></summary>
+<summary><b>📚 Core Competencies & Coursework</b></summary>
 
 <br>
 
 | Domain | Skills & Technologies |
 |:------:|:---------------------|
-| **🧮 Data Structures & Algorithms** | Advanced Problem Solving, Algorithm Optimization, Complexity Analysis |
-| **🗄️ Database Management** | SQL, Query Optimization, Database Design, Normalization |
-| **💻 Object Oriented Programming** | Design Patterns, SOLID Principles, Software Architecture |
-| **🎨 UI/UX Design** | User Interface Design, Frontend Development, User Experience |
-| **⚙️ Computer Architecture** | System Level Programming, Memory Management, CPU Design |
-| **🖥️ Operating Systems** | Process Scheduling, Memory Management, File Systems, Concurrency |
+| **🧮 Data Structures & Algorithms** | Problem solving, algorithm optimization, complexity analysis |
+| **🗄️ Database Management** | SQL, query optimization, schema design, normalization |
+| **💻 Object Oriented Programming** | Design patterns, SOLID principles, software architecture |
+| **🎨 UI/UX Design** | Interface design, frontend development, usability |
+| **⚙️ Computer Architecture** | Systems-level programming, memory management, CPU design |
+| **🖥️ Operating Systems** | Process scheduling, memory management, file systems, concurrency |
 
 </details>
+
+---
+
+## 🚧 Currently Building
+
+<table align="center">
+<tr>
+<td width="50%" valign="top">
+
+### 📱 Productivity App (Flutter)
+**Status:** Active development
+
+A cross-platform habit and goal-tracking app built around honest self-assessment rather than vanity streaks.
+
+- **State:** Riverpod
+- **Storage:** Isar (local-first)
+- **Auth:** Google Sign-In (OAuth2) — Microsoft To Do sync in progress
+- Command Center dashboard and Wardrobe module functional; unifying theming and stress-testing next
+
+</td>
+<td width="50%" valign="top">
+
+### 📊 Observability Dashboard (Streamlit)
+**Status:** Active development
+
+A Streamlit front-end unifying Grafana, Loki, and Prometheus for incident investigation, borrowing the parts of enterprise tools (like Splunk) that actually earn their keep.
+
+- Global time picker + token-based variables
+- Drilldown navigation between metrics and logs
+- Auto-discovery of services and metrics (non-negotiable requirement)
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -91,10 +117,10 @@
 
 <div align="center">
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzVxNnp3MnNnZmN1MHdnaDFxZ3oxOGc5ZXNkYXVpbmxmYmE1Y2F1MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/M9NbzZjAcxq9jS9LZJ/giphy.gif" width="400">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzVxNnp3MnNnZmN1MHdnaDFxZ3oxOGc5ZXNkYXVpbmxmYmE1Y2F1MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/M9NbzZjAcxq9jS9LZJ/giphy.gif" width="360">
 
-### 🏛️ **Live-in-Labs Research Initiative**
-**Student Researcher** | *December 2024 – May 2025*
+### 🏛️ Live-in-Labs Research Initiative
+**Student Researcher** · December 2024 – May 2025 · ✅ Completed
 
 </div>
 
@@ -104,109 +130,98 @@
 
 **🌍 Research Domain**
 <br><br>
-Rural Infrastructure &<br>Socio-Economic Development
+Rural infrastructure & socio-economic development
 
 </td>
 <td align="center" width="33%">
 
 **🤝 Collaboration**
 <br><br>
-Partnership with<br>**Sustainovators** Team
+Partnership with the **Sustainovators** team
 
 </td>
 <td align="center" width="33%">
 
 **🛠️ Methodologies**
 <br><br>
-Human-Centered Design<br>& Participatory Rural Appraisal
+Human-Centered Design & Participatory Rural Appraisal
 
 </td>
 </tr>
 </table>
 
-### 🎯 Research Objectives
-
 ```diff
-+ Conducting comprehensive field studies in remote villages
-+ Implementing HCD (Human-Centered Design) methodologies
-+ Utilizing PRA (Participatory Rural Appraisal) techniques
-+ Assessing socio-economic challenges and infrastructure gaps
-+ Developing sustainable interventions for community well-being
-+ Creating data-driven solutions for rural development
++ Conducted field studies in remote villages
++ Applied HCD (Human-Centered Design) methodologies
++ Used PRA (Participatory Rural Appraisal) techniques
++ Assessed socio-economic challenges and infrastructure gaps
++ Proposed sustainable interventions for community well-being
 ```
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🏎️ **Luxe Ride Rentals** - Enterprise Car Rental System
+### 🏎️ Luxe Ride Rentals — Cross-Platform Car Rental System
 
 <div align="center">
 
-![Status](https://img.shields.io/badge/Status-Production_Ready-success?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Shipped-success?style=flat-square)
 ![Platform](https://img.shields.io/badge/Platform-Cross_Platform-blue?style=flat-square)
-![Build](https://img.shields.io/badge/Build-Stable-brightgreen?style=flat-square)
 
 </div>
 
-**🎯 Overview**: A sophisticated cross-platform car rental management system with dynamic UI components and seamless reservation capabilities.
+A car rental management system with a real-time booking flow, built for desktop deployment via Electron.
 
-#### ⚡ Key Features
-- 🖥️ **Cross-Platform Compatibility** - Built with Electron for desktop deployment
-- 🎨 **Dynamic UI Components** - Responsive and intuitive user interface
-- 🔄 **Seamless Booking System** - Real-time reservation management
-- 📱 **Responsive Design** - Adapts to all screen sizes
-- 🔐 **Secure Authentication** - User data protection and privacy
+**Highlights**
+- Cross-platform desktop app (Electron)
+- Real-time reservation management
+- Responsive UI, secure auth and user data handling
 
-#### 🛠️ Tech Stack
+**Stack**
 
 <div align="center">
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Electron](https://img.shields.io/badge/Electron-2B2E3A?style=for-the-badge&logo=electron&logoColor=9FEAF9)
 
 </div>
 
 ---
 
-### 🔄 **SwapCache** - Adaptive Cache Management Solution
+### 🔄 SwapCache — Adaptive Cache Management System
 
 <div align="center">
 
 ![Status](https://img.shields.io/badge/Status-Active_Development-orange?style=flat-square)
-![Performance](https://img.shields.io/badge/Performance-18M_ops%2Fsec-red?style=flat-square)
-![Reliability](https://img.shields.io/badge/Data_Loss-Zero-brightgreen?style=flat-square)
+![Throughput](https://img.shields.io/badge/Throughput-18M_ops%2Fsec-red?style=flat-square)
+![Data Loss](https://img.shields.io/badge/Data_Loss-Zero-brightgreen?style=flat-square)
 
 </div>
 
-**🎯 Overview**: High-performance adaptive cache management system with hybrid algorithmic approach and enterprise-grade reliability.
-
-#### 🏆 Performance Metrics
+A high-performance, multi-backend cache layer with a hybrid eviction strategy and crash-safe recovery.
 
 ```python
 Hit Rate Improvement:  ████████████████░░░░  +15%
-Operations/Second:     ██████████████████░░  18M ops/s
-Data Loss Rate:        ████████████████████  0% (Zero)
-Backend Support:       ████████████████████  Multi-tier
+Throughput:            ██████████████████░░  18M ops/s
+Data Loss Rate:        ████████████████████  0% (zero)
 Thread Safety:         ████████████████████  100%
 ```
 
-#### ⚙️ Advanced Features
-- ⚡ **Hybrid Eviction Strategy** - LRU/LFU algorithms achieving 15% higher hit rates
-- 🚀 **Multi-threaded Performance** - 18 million operations per second
-- 🛡️ **Zero Data Loss** - Crash recovery across file, Redis, and MongoDB backends
-- 📊 **Real-time Analytics** - Performance monitoring and visualization
-- 🔧 **Configurable Architecture** - Flexible cache policies and storage backends
+**Highlights**
+- Hybrid LRU/LFU eviction strategy → 15% higher hit rate than single-policy baselines
+- Multi-threaded design sustaining 18M ops/sec
+- Crash recovery across file, Redis, and MongoDB backends with zero data loss
+- Real-time performance analytics and visualization
 
-#### 🛠️ Tech Stack
+**Stack**
 
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
@@ -219,45 +234,45 @@ Thread Safety:         ███████████████████
 
 <div align="center">
 
-### 💻 **Programming Languages**
+### 💻 Languages
 
 ![Python](https://img.shields.io/badge/Python-Expert-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-Advanced-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-Advanced-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C++-Intermediate-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![C++](https://img.shields.io/badge/C++-Intermediate-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![C](https://img.shields.io/badge/C-Intermediate-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-Learning-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-Intermediate-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-Expert-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-Advanced-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-### 🚀 **Frameworks & Technologies**
+### 🚀 Frameworks & Tools
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Electron](https://img.shields.io/badge/Electron-2B2E3A?style=for-the-badge&logo=electron&logoColor=9FEAF9)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-### 📚 **Libraries & Tools**
+### 📚 Data & Backend
 
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 
-### 🧰 **Development Environment**
+### 🧰 Dev Environment
 
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![Haskell](https://img.shields.io/badge/Haskell-5D4F85?style=for-the-badge&logo=haskell&logoColor=white)
 
 </div>
@@ -268,41 +283,33 @@ Thread Safety:         ███████████████████
 
 <div align="center">
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzRlbHVvOWQyMDJ6eGV2aTUxNjB4aTVqdGVhMWRvYTlpZHRsdjJzbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2A75RyXVzzSI2bx4Gj/giphy.gif" width="100">
-
-### 🏆 **Problem Solving Journey**
-
-</div>
-
-<table align="center">
+<table>
 <tr>
 <td align="center" width="50%">
 
-### 📊 **Platform Statistics**
+### 📊 Platform Stats
 
 | Platform | Problems Solved | Status |
 |:--------:|:---------------:|:------:|
-| **LeetCode** | 200+ | ![Active](https://img.shields.io/badge/Active-success) |
-| **DSA Practice** | 180+ | ![Active](https://img.shields.io/badge/Active-success) |
-| **Total Portfolio** | **380+** | ![Growing](https://img.shields.io/badge/Growing-blue) |
+| LeetCode | 200+ | 🟢 Active |
+| DSA Practice | 180+ | 🟢 Active |
+| **Total** | **380+** | 📈 Growing |
 
 </td>
 <td align="center" width="50%">
 
-### 🎯 **Focus Areas**
+### 🎯 Focus Areas
 
-- ✅ Arrays & Strings
-- ✅ Trees & Graphs
-- ✅ Dynamic Programming
-- ✅ Greedy Algorithms
-- ✅ Sorting & Searching
-- ✅ System Design Basics
+- Arrays & Strings
+- Trees & Graphs
+- Dynamic Programming
+- Greedy Algorithms
+- Sorting & Searching
+- System Design Basics
 
 </td>
 </tr>
 </table>
-
-<div align="center">
 
 [![LeetCode Profile](https://img.shields.io/badge/View_LeetCode_Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/kurapatikushalnarasimha95/)
 
@@ -310,52 +317,16 @@ Thread Safety:         ███████████████████
 
 ---
 
-## 🏆 Certifications & Learning
+## 🏆 Certifications
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="50%">
-
-### 🔐 **Cybersecurity**
-**Introduction to Cyber Security**
-<br>
-*Security Principles & Best Practices*
-
-![Cyber](https://img.shields.io/badge/Cybersecurity-Certified-red?style=flat-square)
-
----
-
-### ☕ **Programming**
-**HackerRank Java (Basics)**
-<br>
-*Core Java & Programming Fundamentals*
-
-![Java](https://img.shields.io/badge/Java-Certified-orange?style=flat-square)
-
-</td>
-<td align="center" width="50%">
-
-### ⚙️ **System Administration**
-**Tools of the Trade: Linux and SQL**
-<br>
-*System Administration & Database Management*
-
-![Linux](https://img.shields.io/badge/Linux-Certified-yellow?style=flat-square)
-
----
-
-### 🤖 **Artificial Intelligence**
-**Google AI Essentials**
-<br>
-*AI Fundamentals & Applications*
-
-![AI](https://img.shields.io/badge/AI-Certified-blue?style=flat-square)
-
-</td>
-</tr>
-</table>
+| Certification | Focus |
+|:--------------|:------|
+| 🔐 Introduction to Cyber Security | Security principles & best practices |
+| ☕ HackerRank Java (Basics) | Core Java & programming fundamentals |
+| ⚙️ Tools of the Trade: Linux and SQL | System administration & database management |
+| 🤖 Google AI Essentials | AI fundamentals & applications |
 
 </div>
 
@@ -371,7 +342,7 @@ Thread Safety:         ███████████████████
 <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs?username=KVLNK12305&show_icons=true&locale=en&layout=compact&theme=tokyonight&hide_border=true&title_color=00d9ff&text_color=00d9ff" alt="Top Languages" />
 <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=KVLNK12305&theme=tokyo-night&hide_border=true&color=00d9ff&line=00d9ff&point=00d9ff&area=true&area_color=00d9ff" alt="Contribution Graph" />
 
-### 🏆 **GitHub Trophies**
+### 🏆 GitHub Trophies
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=KVLNK12305&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15)](https://github.com/KVLNK12305)
 
@@ -393,50 +364,13 @@ Thread Safety:         ███████████████████
 
 </div>
 
----
-
-## 🎯 Current Focus
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="33%">
-
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHJxcDR1YjNqYm53MWVneThjOWZ3eG1sdXZ5djczNGt6ZTAwc3g5ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bGgsc5mWoryfgKBx1u/giphy.gif" width="100">
-
-### 🔥 **Core Skills**
-Mastering advanced algorithms<br>and system design patterns
-
-</td>
-<td align="center" width="33%">
-
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZThpdHc1MWVoOXMyYW82NHB6cHZxb3ppOHF5dWhlNDJoYTlnMTc1MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LmNwrBhejkK9EFP504/giphy.gif" width="100">
-
-### 📈 **Continuous Learning**
-Exploring distributed systems<br>and cloud technologies
-
-</td>
-<td align="center" width="33%">
-
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGJtZnZiMGpjZWgxZ2RrZmQycGthdjZtZTJiOHAwOTk3anJiN3pnYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/du3J3cXyzhj75IOgvA/giphy.gif" width="100">
-
-### 🌟 **Open Source**
-Contributing to community<br>projects and collaborations
-
-</td>
-</tr>
-</table>
-
-</div>
+> **Note:** this only renders once the `snake.yml` GitHub Action (included alongside this README) has run at least once on the `KVLNK12305/KVLNK12305` repo, since it generates the `output` branch the image above points to.
 
 ---
 
 ## 🌐 Connect With Me
 
 <div align="center">
-
-### 📫 **Let's Collaborate!**
 
 <table>
 <tr>
@@ -465,10 +399,6 @@ Contributing to community<br>projects and collaborations
 </tr>
 </table>
 
-<br>
-
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzN0ZnJoZzRvZWlqbzdhMmV5YmdjZGM3eDVvcm1tYXhxOGp4MHptaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IpeYSEZshTefe/giphy.gif" width="400">
-
 </div>
 
 ---
@@ -478,48 +408,32 @@ Contributing to community<br>projects and collaborations
 <div align="center">
 
 ### *"The best way to predict the future is to create it."*
-**– Peter Drucker**
-
-<br>
+**— Peter Drucker**
 
 ```javascript
 const kushal = {
     location: "Coimbatore, India",
     education: "B.Tech CSE @ Amrita Vishwa Vidyapeetham",
-    currentFocus: ["System Design", "DSA Mastery", "Research"],
-    code: ["Python", "Java", "JavaScript", "C++"],
-    technologies: {
-        frontEnd: ["React", "HTML", "CSS", "JavaScript"],
-        backEnd: ["Node.js", "Python"],
-        databases: ["MySQL", "MongoDB", "Redis"],
+    currentFocus: ["Flutter", "Observability tooling", "Networking & Rust"],
+    languages: ["Python", "Java", "JavaScript", "C++", "Dart"],
+    stack: {
+        frontend: ["React", "Flutter", "HTML", "CSS"],
+        backend: ["Node.js", "Python", "Streamlit"],
+        data: ["MySQL", "MongoDB", "Redis"],
+        observability: ["Grafana", "Loki", "Prometheus"],
         tools: ["Git", "VS Code", "Linux", "Bash"]
     },
-    architecture: ["Microservices", "Event-Driven", "Design Patterns"],
-    funFact: "I solve bugs faster than I solve what to have for dinner! 🐛➡️✨"
+    funFact: "I solve bugs faster than I solve what's for dinner 🐛➡️✨"
 };
 ```
 
-<br>
+> 🐛 *"I solve bugs faster than I solve what to have for dinner. At least one of those compiles without errors."*
 
-### ⚡ **Quick Facts About Me**
+> ☕ *"My code runs on coffee and Stack Overflow — mostly Stack Overflow."*
 
-> 🐛 **Debug Philosophy**: *"I solve bugs faster than I solve what to have for dinner. At least one of them compiles without errors!"*
+**Always learning · Always building · Always growing**
 
-> ☕ **Fuel Source**: *"My code runs on coffee and Stack Overflow... mostly Stack Overflow."*
-
-> 🎯 **Current Status**: *"Turning caffeine into code since 2023. Side effects may include: excessive semicolons and an unhealthy relationship with my IDE."*
-
-> 💡 **Life Motto**: *"Code. Debug. Coffee. Repeat. (Not necessarily in that order)"*
-
-<br>
-
-### 🌱 **Always Learning • Always Building • Always Growing**
-
-<sub>⚠️ **Warning**: *May spontaneously start explaining algorithms during casual conversations. Approach with caution and maybe some snacks.* 🍕</sub>
-
-<br>
-
-**Thank you for visiting my profile! Let's build something amazing together!**
+Thanks for stopping by — let's build something good.
 
 </div>
 
@@ -533,6 +447,6 @@ const kushal = {
 ![Maintained](https://img.shields.io/badge/Maintained-Yes-success?style=for-the-badge)
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge)
 
-**© 2025 Kurapati Venkata Lakshmi Narasimha Kushal • Built with 💙 and ☕**
+**© 2026 Kurapati Venkata Lakshmi Narasimha Kushal · Built with 💙 and ☕**
 
 </div>
