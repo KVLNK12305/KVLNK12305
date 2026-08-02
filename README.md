@@ -43,6 +43,8 @@ Vulnerability research and exploitation lab.
 
 <div align="center">
 
+<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=KVLNK12305&theme=matrix" alt="trophies" /></a>
+
 <img src="./streak.svg" width="620" alt="Current and longest streak"/>
 
 <img src="./langs.svg" width="620" alt="Top languages by bytes and by repo"/>
