@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=800&height=100&lines=Computer+Science+Engineering+Student;Builder+%7C+Problem+Solver+%7C+Researcher;380%2B+DSA+Problems+Solved;Currently+Exploring%3A+Networks+%26+Security)](https://git.io/typing-svg)
+<img src="./ascii.svg" width="460" alt="KVLNK12305"/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=KVLNK12305&style=for-the-badge&color=00d9ff&label=PROFILE+VIEWS)
 ![GitHub Followers](https://img.shields.io/github/followers/KVLNK12305?label=FOLLOWERS&style=for-the-badge&color=00d9ff&logo=github)
