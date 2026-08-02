@@ -4,9 +4,9 @@
 
 <img src="./stats.svg" width="620" alt="Contributions in the last year"/>
 
-[linkedin](https://www.linkedin.com/in/venkata-lakshmi-narasimha-kushal-kurapati-729ab4289/) &nbsp;·&nbsp;
-[leetcode](https://leetcode.com/u/kurapatikushalnarasimha95/) &nbsp;·&nbsp;
-[email](mailto:kls2edmentre@gmail.com)
+<a href="https://www.linkedin.com/in/venkata-lakshmi-narasimha-kushal-kurapati-729ab4289/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://leetcode.com/u/kurapatikushalnarasimha95/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/></a>
+<a href="mailto:kls2edmentre@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
 </div>
 
@@ -43,7 +43,7 @@ Vulnerability research and exploitation lab.
 
 <div align="center">
 
-<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=KVLNK12305&theme=matrix" alt="trophies" /></a>
+<img src="https://github-profile-trophy.vercel.app/?username=KVLNK12305&theme=matrix&column=7&margin-w=15" alt="Trophies" />
 
 <img src="./streak.svg" width="620" alt="Current and longest streak"/>
 
