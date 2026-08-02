@@ -54,25 +54,40 @@ ROW_DELAY = 0.09           # per-row stagger, seconds
 FAMILY = "ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
 
 
-def prep(path, crop=None):
+def prep(path, crop=None, use_rembg=True):
     """Cut out the background, even the local contrast, then darken."""
     src = Image.open(path).convert("RGBA")
     if crop:
         src = src.crop(crop)
 
-    cut = remove(src)
-    alpha = np.array(cut.split()[-1])
+    alpha = None
+    if use_rembg:
+        try:
+            cut = remove(src)
+            alpha_test = np.array(cut.split()[-1])
+            if alpha_test.mean() > 1.0:
+                alpha = alpha_test
+            else:
+                cut = src
+        except Exception:
+            cut = src
+    else:
+        cut = src
 
-    # Composite onto white so everything outside the subject maps to the blank
-    # end of the ramp. Skip this and the background fills with @ and %.
+    if alpha is None:
+        alpha = np.array(cut.split()[-1]) if cut.mode == "RGBA" else np.full(cut.size[::-1], 255, dtype=np.uint8)
+
+    # Composite onto white so everything outside the subject maps to the blank end of the ramp.
     white = Image.new("RGBA", cut.size, (255, 255, 255, 255))
     gray = np.array(Image.alpha_composite(white, cut).convert("L"))
 
-    gray = cv2.bilateralFilter(gray, 11, 50, 50)      # smooth skin, keep edges
-    gray = cv2.createCLAHE(clipLimit=CLAHE_CLIP,
-                           tileGridSize=(8, 8)).apply(gray)
-    gray = (255.0 * (gray / 255.0) ** CURVE).astype("uint8")
-    gray[alpha < 20] = 255                            # force the matte to white
+    # For photographic input, apply bilateral filter and CLAHE contrast enhancement
+    if alpha is not None and alpha.mean() > 10.0:
+        gray = cv2.bilateralFilter(gray, 11, 50, 50)
+        gray = cv2.createCLAHE(clipLimit=CLAHE_CLIP, tileGridSize=(8, 8)).apply(gray)
+        gray = (255.0 * (gray / 255.0) ** CURVE).astype("uint8")
+        gray[alpha < 20] = 255
+
     return Image.fromarray(gray)
 
 
@@ -83,16 +98,32 @@ def to_lines(img, cols=COLS, gamma=GAMMA):
         w, h = img.size
 
     rows = int(cols * (h / w) * ROW_RATIO)
-    img = img.resize((cols, rows), Image.LANCZOS)
-    px = list(img.getdata())
-    n = len(RAMP)
+    
+    # Calculate cell density via inverted downsampling for crisp line & contour art
+    arr = np.array(img, dtype=float)
+    darkness = np.maximum(0.0, 255.0 - arr)
+    img_dark = Image.fromarray(darkness.astype(np.uint8))
+    img_resized = img_dark.resize((cols, rows), Image.LANCZOS)
+    px_dark = np.array(img_resized, dtype=float) / 255.0
 
+    d_min, d_max = px_dark.min(), px_dark.max()
+    if d_max > d_min:
+        px_norm = (px_dark - d_min) / (d_max - d_min)
+    else:
+        px_norm = px_dark
+
+    n = len(RAMP)
     out = []
     for r in range(rows):
-        out.append("".join(
-            RAMP[min(n - 1, int((1 - px[r * cols + c] / 255.0) ** gamma * n))]
-            for c in range(cols)
-        ).rstrip())
+        row_chars = []
+        for c in range(cols):
+            val = px_norm[r, c]
+            if val < 0.05:
+                row_chars.append(' ')
+            else:
+                idx = int((val ** gamma) * (n - 1))
+                row_chars.append(RAMP[min(n - 1, max(1, idx))])
+        out.append("".join(row_chars).rstrip())
 
     while out and not out[0].strip():
         out.pop(0)
@@ -148,6 +179,7 @@ def main():
                                    "tight to the head so the whole grid goes to "
                                    "the face")
     ap.add_argument("--cols", type=int, default=COLS)
+    ap.add_argument("--no-rembg", action="store_true", help="skip automatic background removal")
     ap.add_argument("--preview", action="store_true",
                     help="print the ASCII to the terminal as well")
     args = ap.parse_args()
@@ -159,7 +191,7 @@ def main():
             sys.exit("--crop needs four numbers: left,top,right,bottom")
         crop = tuple(parts)
 
-    lines = to_lines(prep(args.photo, crop), cols=args.cols)
+    lines = to_lines(prep(args.photo, crop, use_rembg=not args.no_rembg), cols=args.cols)
     if args.preview:
         print("\n".join(lines))
 
