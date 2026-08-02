@@ -99,11 +99,15 @@ Check out my pinned repos below for what I'm actually building — this page is 
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=KVLNK12305&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&ring_color=00d9ff&text_color=00d9ff&icon_color=00d9ff&title_color=00d9ff" alt="GitHub Stats" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=KVLNK12305&theme=tokyonight&hide_border=true&ring=00d9ff&fire=00d9ff&currStreakLabel=00d9ff" alt="GitHub Streak" />
+<img src="./stats.svg" width="620" alt="Contributions in the last year"/>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs?username=KVLNK12305&show_icons=true&locale=en&layout=compact&theme=tokyonight&hide_border=true&title_color=00d9ff&text_color=00d9ff" alt="Top Languages" />
-<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=KVLNK12305&theme=tokyo-night&hide_border=true&color=00d9ff&line=00d9ff&point=00d9ff&area=true&area_color=00d9ff" alt="Contribution Graph" />
+<img src="./streak.svg" width="620" alt="Current and longest streak"/>
+
+<img src="./langs.svg" width="620" alt="Top languages by bytes and by repo"/>
+
+<img src="./year.svg" width="620" alt="The last year, one character per day"/>
+
+</div>
 
 ### 🏆 Highlights
 
