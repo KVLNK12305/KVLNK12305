@@ -46,7 +46,9 @@ Also a Security Researcher with Init Club.
 <img src="./year.svg" width="620" alt="The last year, one character per day"/>
 
 <br>
-[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=KVLNK12305&custom_title=My%20Stats&show_icons=true&include_all_commits=true&theme=neon)](https://github-stats-extended.vercel.app/api?username=KVLNK12305&custom_title=My%20Stats&show_icons=true&include_all_commits=true&theme=neon)
+
+<br>
+<img src="https://streak-stats.vercel.app/api?user=KVLNK12305&theme=dark&mode=compact&border_radius=15&card_width=850&hide_border=true&side_labels=true" alt="Streak stats" />
 
 </div>
 
