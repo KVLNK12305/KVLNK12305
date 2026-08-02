@@ -1,59 +1,59 @@
 <div align="center">
 
-<img src="./ascii.svg" width="800" alt="Kurapati Venkata Lakshmi Narasimha Kushal"/>
+<img src="./ascii.svg" width="460" alt="KVLNK12305"/>
 
 <img src="./stats.svg" width="620" alt="Contributions in the last year"/>
 
-<a href="https://www.linkedin.com/in/venkata-lakshmi-narasimha-kushal-kurapati-729ab4289/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://leetcode.com/u/kurapatikushalnarasimha95/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" /></a>
-<a href="mailto:kls2edmentre@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+[linkedin](https://www.linkedin.com/in/venkata-lakshmi-narasimha-kushal-kurapati-729ab4289/) &nbsp;·&nbsp;
+[leetcode](https://leetcode.com/u/kurapatikushalnarasimha95/) &nbsp;·&nbsp;
+[email](mailto:kls2edmentre@gmail.com)
 
 </div>
 
 <img src="./hd-about.svg" width="620" alt="about"/>
 
-> B.Tech Computer Science Engineering student at Amrita Vishwa Vidyapeetham.<br>
-> I build things end-to-end — from mobile apps to the dashboards that monitor them.
+> CS Engineering at Amrita Vishwa Vidyapeetham.<br>
+> Systems programming, offensive security research, and protocol-level tooling.
 
-I like understanding systems down to the protocol level, not just the framework level.<br>
-Currently deep in a self-directed 90 Days of CS track — networking internals, systems programming in Rust, and purple-team security.<br>
-Also a Security Researcher with Init Club.
+Understanding software down to the byte and packet level, not just the framework layer.<br>
+Currently deep in systems internals with Rust, security research at Init Club, and building custom dev tools.
+
+<img src="./hd-projects.svg" width="620" alt="projects"/>
+
+**[CVE-2026-41089](https://github.com/KVLNK12305/CVE-2026-41089)** &nbsp;·&nbsp; <samp>python</samp><br>
+Proof of concept for Netlogon CLDAP stack buffer overflow (CVSS 9.8 Critical).
+
+**[GhostShell](https://github.com/KVLNK12305/GhostShell)** &nbsp;·&nbsp; <samp>rust</samp><br>
+HCI exploration platform built with systems-level Rust.
+
+**[nitrostack](https://github.com/KVLNK12305/nitrostack)** &nbsp;·&nbsp; <samp>typescript</samp><br>
+Framework for building, testing, and deploying production-ready MCP servers.
+
+**[K.A.I.R.O](https://github.com/KVLNK12305/K.A.I.R.O)** &nbsp;·&nbsp; <samp>dart, flutter</samp><br>
+Personal focus enforcement engine and energy economy tracker.
+
+**[BlueHammer](https://github.com/KVLNK12305/BlueHammer)** &nbsp;·&nbsp; <samp>c</samp><br>
+Vulnerability research and exploitation lab.
 
 <img src="./hd-stack.svg" width="620" alt="stack"/>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-<br>
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+<samp>rust &nbsp; c &nbsp; c++ &nbsp; python &nbsp; java &nbsp; typescript &nbsp; go &nbsp; dart &nbsp; linux &nbsp; redis &nbsp; mysql</samp>
 
 <img src="./hd-stats.svg" width="620" alt="stats"/>
 
 <div align="center">
 
+<img src="./streak.svg" width="620" alt="Current and longest streak"/>
+
 <img src="./langs.svg" width="620" alt="Top languages by bytes and by repo"/>
 
 <img src="./year.svg" width="620" alt="The last year, one character per day"/>
-
-<br>
-
-<br>
-<img src="https://streak-stats.vercel.app/api?user=KVLNK12305&theme=dark&mode=compact&border_radius=15&card_width=850&hide_border=true&side_labels=true" alt="Streak stats" />
 
 </div>
 
 <img src="./hd-about-this-page.svg" width="620" alt="about this page"/>
 
-Every graphic here is generated entirely on this repository, not embedded from anyone else's server.<br>
-The portrait is a photo pushed through a character ramp; the stat graphics and these section headings are drawn by a scheduled action straight from the GitHub GraphQL API, committing only what changed.
+Every graphic here is generated inside this repository by a scheduled action.<br>
+Zero third-party requests, zero external rate-limits, zero broken badges.
 
-They animate with SMIL inside the SVG, meaning nothing loads from a third party, and nothing here can rate-limit or go dark. 
-The typeface is JetBrains Mono, subset to just the characters each graphic draws and inlined as base64 to ensure pixel-perfect rendering across all devices.
+`ascii.svg` maps a photo through a character ramp via `scripts/make_portrait.py`; stat graphics and section headings are rendered straight from GitHub's GraphQL API. All typography is inlined JetBrains Mono WOFF2.
