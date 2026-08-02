@@ -4,9 +4,9 @@
 
 <img src="./stats.svg" width="620" alt="Contributions in the last year"/>
 
-[linkedin](https://www.linkedin.com/in/venkata-lakshmi-narasimha-kushal-kurapati-729ab4289/) &nbsp;·&nbsp;
-[leetcode](https://leetcode.com/u/kurapatikushalnarasimha95/) &nbsp;·&nbsp;
-[email](mailto:kls2edmentre@gmail.com)
+<a href="https://www.linkedin.com/in/venkata-lakshmi-narasimha-kushal-kurapati-729ab4289/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://leetcode.com/u/kurapatikushalnarasimha95/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" /></a>
+<a href="mailto:kls2edmentre@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
 </div>
 
@@ -21,7 +21,19 @@ Also a Security Researcher with Init Club.
 
 <img src="./hd-stack.svg" width="620" alt="stack"/>
 
-<samp>python &nbsp; java &nbsp; rust &nbsp; cpp &nbsp; dart &nbsp; react &nbsp; flutter &nbsp; node &nbsp; electron &nbsp; mysql &nbsp; redis &nbsp; prometheus</samp>
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+<br>
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 
 <img src="./hd-stats.svg" width="620" alt="stats"/>
 
@@ -32,6 +44,9 @@ Also a Security Researcher with Init Club.
 <img src="./langs.svg" width="620" alt="Top languages by bytes and by repo"/>
 
 <img src="./year.svg" width="620" alt="The last year, one character per day"/>
+
+<br>
+[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=KVLNK12305&custom_title=My%20Stats&show_icons=true&include_all_commits=true&theme=neon)](https://github-stats-extended.vercel.app/api?username=KVLNK12305&custom_title=My%20Stats&show_icons=true&include_all_commits=true&theme=neon)
 
 </div>
 
