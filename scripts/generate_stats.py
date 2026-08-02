@@ -104,9 +104,10 @@ MON = ["jan", "feb", "mar", "apr", "may", "jun",
 # ---------------------------------------------------------------- data
 
 def window():
-    today = datetime.now(timezone.utc).date()
+    ist = timezone(timedelta(hours=5, minutes=30))
+    today = datetime.now(ist).date()
     start = today - timedelta(days=364)
-    return (f"{start.isoformat()}T00:00:00Z", f"{today.isoformat()}T23:59:59Z")
+    return (f"{start.isoformat()}T00:00:00+05:30", f"{today.isoformat()}T23:59:59+05:30")
 
 
 def fetch(login, token):
