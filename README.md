@@ -43,7 +43,7 @@ Vulnerability research and exploitation lab.
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=KVLNK12305&theme=matrix&column=7&margin-w=15" alt="Trophies" />
+<img src="https://github-profile-trophies.vercel.app/?username=KVLNK12305&theme=matrix&column=7&margin-w=15" alt="Trophies" />
 
 <img src="./streak.svg" width="620" alt="Current and longest streak"/>
 
