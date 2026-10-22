@@ -374,17 +374,17 @@ def draw_heading(word):
 
 
 def draw_quote(quote='"The Net is vast and infinite."',
-               author="Motoko Kusanagi, Ghost in the Shell"):
+               author="Motoko Kusanagi // Ghost in the Shell"):
     """An animated, self-typing quote card matching the profile design language."""
     H = 82
     pad_l = LEFT
     p = [head(WIDTH, H)]
 
-    # Header tag and rule
+    # Header tag and rule with Steins;Gate Divergence Meter
     p.append(f'<g opacity="0">{fade(0.10)}'
-             + label(pad_l, 18, "MOTD // PROTOCOL", 9, "m-f",
-                     extra=' letter-spacing="1.3"')
-             + f'<line x1="{pad_l + 130}" y1="14.5" x2="{WIDTH}" y2="14.5" '
+             + label(pad_l, 18, "MOTD // PROTOCOL  ·  DIVERGENCE: 1.048596%", 9, "m-f",
+                     extra=' letter-spacing="1.2"')
+             + f'<line x1="{pad_l + 285}" y1="14.5" x2="{WIDTH}" y2="14.5" '
              f'class="u-s" stroke-width="1"/>'
              + '</g>')
 
