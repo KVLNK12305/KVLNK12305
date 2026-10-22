@@ -373,6 +373,42 @@ def draw_heading(word):
     return "".join(p)
 
 
+def draw_quote(quote='"The Net is vast and infinite."',
+               author="Motoko Kusanagi, Ghost in the Shell"):
+    """An animated, self-typing quote card matching the profile design language."""
+    H = 82
+    pad_l = LEFT
+    p = [head(WIDTH, H)]
+
+    # Header tag and rule
+    p.append(f'<g opacity="0">{fade(0.10)}'
+             + label(pad_l, 18, "MOTD // PROTOCOL", 9, "m-f",
+                     extra=' letter-spacing="1.3"')
+             + f'<line x1="{pad_l + 130}" y1="14.5" x2="{WIDTH}" y2="14.5" '
+             f'class="u-s" stroke-width="1"/>'
+             + '</g>')
+
+    # SMIL Wipe text
+    cid = "qw"
+    qw = len(quote) * 13.0 * 0.6 + 12
+    clip, cursor = wipe(cid, pad_l, 28, qw, 24, 0.35, 1.1)
+    p.append(clip)
+    p.append(f'<g clip-path="url(#{cid})">'
+             + label(pad_l, 46, quote, 13.5, "e-f",
+                     extra=' font-weight="600"')
+             + '</g>')
+    p.append(cursor)
+
+    # Subtitle / attribution
+    p.append(f'<g opacity="0">{fade(1.50)}'
+             + label(WIDTH - 6, 68, f"— {author}", 11, "m-f", anchor="end")
+             + '</g>')
+
+    p.append("</svg>")
+    return "".join(p)
+
+
+
 def draw_year(s):
     """Seven rows by fifty-three weeks, intensity as a character."""
     FS, LH, COLW = 9.2, 11.0, 2
@@ -467,7 +503,8 @@ def main():
 
     s = summarise(fetch(login, token))
     files = {"stats.svg": draw_stats(s), "streak.svg": draw_streak(s),
-             "langs.svg": draw_langs(s), "year.svg": draw_year(s)}
+             "langs.svg": draw_langs(s), "year.svg": draw_year(s),
+             "quote.svg": draw_quote()}
     for word in ("about", "stack", "projects", "stats", "about this page"):
         files[f"hd-{word.replace(' ', '-')}.svg"] = draw_heading(word)
 
