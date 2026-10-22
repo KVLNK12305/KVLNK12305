@@ -35,11 +35,13 @@
       <b>ARSENAL:</b> Rust · Go · Python · TypeScript · Dart · AWS · Azure<br>
       <b>RANK:</b> Jonin<br>
       <b>STATUS:</b> Student, building security tools and poking at protocols
-      <br><br>
-      <img src="./quote.svg" width="580" alt="The Net is vast and infinite."/>
     </td>
   </tr>
 </table>
+
+<br>
+
+<img src="./quote.svg" width="890" alt="The Net is vast and infinite."/>
 
 <br>
 

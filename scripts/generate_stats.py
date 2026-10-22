@@ -373,32 +373,33 @@ def draw_heading(word):
 def draw_quote(quote='"The Net is vast and infinite."',
                author="Motoko Kusanagi // Ghost in the Shell"):
     """An animated, self-typing quote card matching the profile design language."""
-    H = 82
+    H = 96
     pad_l = LEFT
     p = [head(WIDTH, H)]
 
     # Header tag and rule with Steins;Gate Divergence Meter
     p.append(f'<g opacity="0">{fade(0.10)}'
-             + label(pad_l, 18, "MOTD // PROTOCOL  ·  DIVERGENCE: 1.048596%", 9, "m-f",
-                     extra=' letter-spacing="1.2"')
-             + f'<line x1="{pad_l + 285}" y1="14.5" x2="{WIDTH}" y2="14.5" '
+             + label(pad_l, 20, "MOTD // PROTOCOL  ·  DIVERGENCE: 1.048596%", 9.5, "m-f",
+                     extra=' letter-spacing="1.3"')
+             + f'<line x1="{pad_l + 315}" y1="16.5" x2="{WIDTH}" y2="16.5" '
              f'class="u-s" stroke-width="1"/>'
              + '</g>')
 
     # SMIL Wipe text
+    FS = 18
     cid = "qw"
-    qw = len(quote) * 13.5 * 0.6 + 12
-    clip, cursor = wipe(cid, pad_l, 28, qw, 24, 0.35, 1.1)
+    qw = len(quote) * FS * 0.6 + 18
+    clip, cursor = wipe(cid, pad_l, 32, qw, 30, 0.35, 1.2)
     p.append(clip)
     p.append(f'<g clip-path="url(#{cid})">'
-             + label(pad_l, 46, quote, 13.5, "e-f",
+             + label(pad_l, 54, quote, FS, "e-f",
                      extra=' font-weight="600"')
              + '</g>')
     p.append(cursor)
 
     # Subtitle / attribution
     p.append(f'<g opacity="0">{fade(1.50)}'
-             + label(WIDTH - 10, 68, f"— {author}", 11, "m-f", anchor="end")
+             + label(WIDTH - pad_l, 80, f"— {author}", 12, "m-f", anchor="end")
              + '</g>')
 
     p.append("</svg>")
