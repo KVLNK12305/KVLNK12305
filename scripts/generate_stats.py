@@ -89,12 +89,11 @@ def font_text():
 
 
 def font_head():
-    """Only the letters the section headings use."""
-    return face("jbmono-head.woff2", 600)
+    """Basic latin 600 weight for section headings."""
+    return face("jbmono-600.woff2", 600)
 
-WIDTH = 620            # every graphic shares one column width
-LEFT = 34              # shared left inset, so stacked blocks line up
-                       # (year.svg needs it for the weekday gutter)
+WIDTH = 890            # maximized column width for GitHub README
+LEFT = 35              # shared left inset, so stacked blocks line up
 REVEAL = 1.30          # seconds; matches the portrait's cadence
 RAMP = [" ", ":", "+", "#", "@"]      # steps of the portrait's own ramp
 MON = ["jan", "feb", "mar", "apr", "may", "jun",
@@ -253,20 +252,20 @@ def hbar(x, y, w, h, cls="d-f", r=3.0):
 
 
 def draw_stats(s):
-    """Hero number, the two secondary counts, and the weekly sparkline."""
-    H = 148
+    """Hero number, secondary counts, and the full-width weekly sparkline."""
+    H = 152
     weekly = s["weekly"] or [0]
     peak = max(weekly) or 1
     p = [head(WIDTH, H)]
     p.append(f'<g opacity="0">{fade(0.10)}'
-             + label(0, 50, s["total"], 52, "e-f", extra=' font-weight="600"')
-             + label(0, 72, "contributions in the last year", 12) + '</g>')
+             + label(LEFT, 50, s["total"], 52, "e-f", extra=' font-weight="600"')
+             + label(LEFT, 72, "contributions in the last year", 12) + '</g>')
     for i, (val, lab) in enumerate([(s["active"], "active days"),
                                     (s["best_week"], "best week")]):
         p.append(f'<g opacity="0">{fade(0.30 + i * 0.12)}'
-                 + label(WIDTH, 30 + i * 40, val, 19, "e-f", "end",
+                 + label(WIDTH - LEFT, 30 + i * 40, val, 19, "e-f", "end",
                          ' font-weight="600"')
-                 + label(WIDTH, 47 + i * 40, lab, 11, "m-f", "end") + '</g>')
+                 + label(WIDTH - LEFT, 47 + i * 40, lab, 11, "m-f", "end") + '</g>')
 
     base, top = H - 10, H - 58
     span = base - top
@@ -292,22 +291,28 @@ def draw_stats(s):
 
 
 def draw_streak(s):
-    """Current and longest streak, split by a hairline."""
+    """Current streak, longest streak, and active uptime, split by hairlines across 890px."""
     H = 96
-    cells = []
-    for k, lab in (("current", "current streak"), ("longest", "longest streak")):
-        r = s[k]
-        span = (f"{pretty(r['start'])} &#8211; {pretty(r['end'])}"
-                if r["length"] else "&#8212;")
-        cells.append((r["length"], lab, span))
+    cur, best = s["current"], s["longest"]
+    cur_span = f"{pretty(cur['start'])} &#8211; {pretty(cur['end'])}" if cur["length"] else "&#8212;"
+    best_span = f"{pretty(best['start'])} &#8211; {pretty(best['end'])}" if best["length"] else "&#8212;"
+    act_span = f"{s['active']} of 365 days ({s['active']/365*100:.1f}%)"
+
+    cells = [
+        (cur["length"], "current streak", cur_span),
+        (best["length"], "longest streak", best_span),
+        (s["active"], "active uptime", act_span),
+    ]
 
     p = [head(WIDTH, H)]
-    mid = WIDTH / 2
-    p.append(f'<line x1="{mid:.0f}" y1="16" x2="{mid:.0f}" y2="80" '
-             f'class="u-s" stroke-width="1" opacity="0">{fade(0.20)}</line>')
+    w3 = WIDTH / 3
+    for div_i in (1, 2):
+        dx = div_i * w3
+        p.append(f'<line x1="{dx:.0f}" y1="16" x2="{dx:.0f}" y2="80" '
+                 f'class="u-s" stroke-width="1" opacity="0">{fade(0.20)}</line>')
     for i, (val, lab, span) in enumerate(cells):
-        x = LEFT if i == 0 else mid + LEFT
-        p.append(f'<g opacity="0">{fade(0.12 + i * 0.14)}'
+        x = LEFT + i * w3
+        p.append(f'<g opacity="0">{fade(0.12 + i * 0.12)}'
                  + label(x, 44, f"{val}", 34, "e-f", extra=' font-weight="600"')
                  + label(x, 64, lab, 11)
                  + label(x, 80, span, 10) + '</g>')
@@ -316,15 +321,15 @@ def draw_streak(s):
 
 
 def draw_langs(s):
-    """Two small charts: share of bytes, and count of repos by main language."""
+    """Two charts: share of bytes and repo count, expanded across 890px."""
     rows = max(len(s["by_size"]), len(s["by_repo"]), 1)
     H = 26 + rows * 22 + 6
-    colw = (WIDTH - LEFT - 30) / 2
-    name_w, bar_max = 82, colw - 82 - 44
+    colw = (WIDTH - LEFT - 50) / 2
+    name_w, bar_max = 110, colw - 110 - 46
 
     p = [head(WIDTH, H)]
     groups = [(LEFT, "by bytes", s["by_size"], True),
-              (LEFT + colw + 30, "by repos", s["by_repo"], False)]
+              (LEFT + colw + 50, "by repos", s["by_repo"], False)]
     for gi, (gx, title, data, as_pct) in enumerate(groups):
         p.append(f'<g opacity="0">{fade(0.10 + gi * 0.10)}'
                  + label(gx, 12, title.upper(), 9, "m-f",
@@ -341,7 +346,7 @@ def draw_langs(s):
             y = 26 + ri * 22
             shown = (f"{val / total * 100:.0f}%" if as_pct else f"{val}")
             p.append(f'<g opacity="0">{fade(0.24 + gi * 0.10 + ri * 0.05)}'
-                     + label(gx, y + 8, name.lower()[:11], 11, "e-f")
+                     + label(gx, y + 8, name.lower()[:12], 11, "e-f")
                      + label(gx + colw - 6, y + 8, shown, 11, "m-f", "end")
                      + '</g>')
             p.append(f'<g clip-path="url(#{cid})">'
@@ -353,18 +358,10 @@ def draw_langs(s):
 
 
 def draw_heading(word):
-    """A section heading in the mono face, with a hairline running right.
-
-    GitHub strips <style> and style= from markdown, so a real markdown heading
-    can only ever be GitHub's own sans. Rendering the label as an SVG is the
-    only way to put the page's own typeface on it. The rule starts past the
-    longest plausible advance (0.6em is the widest common monospace ratio), so
-    a narrower font on the viewer's machine widens the gap slightly rather than
-    colliding with the text.
-    """
+    """A section heading in the mono face, with a hairline running to WIDTH."""
     FS = 16
-    H = 26
-    text_end = len(word) * FS * 0.6 + 18
+    H = 28
+    text_end = len(word) * FS * 0.6 + 20
     p = [head(WIDTH, H, font=font_head())]
     p.append(label(0, 18, word, FS, "e-f", extra=' font-weight="600"'))
     p.append(f'<line x1="{text_end:.0f}" y1="12.5" x2="{WIDTH}" y2="12.5" '
@@ -390,7 +387,7 @@ def draw_quote(quote='"The Net is vast and infinite."',
 
     # SMIL Wipe text
     cid = "qw"
-    qw = len(quote) * 13.0 * 0.6 + 12
+    qw = len(quote) * 13.5 * 0.6 + 12
     clip, cursor = wipe(cid, pad_l, 28, qw, 24, 0.35, 1.1)
     p.append(clip)
     p.append(f'<g clip-path="url(#{cid})">'
@@ -401,22 +398,22 @@ def draw_quote(quote='"The Net is vast and infinite."',
 
     # Subtitle / attribution
     p.append(f'<g opacity="0">{fade(1.50)}'
-             + label(WIDTH - 6, 68, f"— {author}", 11, "m-f", anchor="end")
+             + label(WIDTH - 10, 68, f"— {author}", 11, "m-f", anchor="end")
              + '</g>')
 
     p.append("</svg>")
     return "".join(p)
 
 
-
 def draw_year(s):
-    """Seven rows by fifty-three weeks, intensity as a character."""
-    FS, LH, COLW = 9.2, 11.0, 2
-    CW = FS * 0.6
-    pad_l, pad_t = LEFT, 44
+    """Seven rows by fifty-three weeks, intensity as a character scaled across 890px."""
+    FS, LH, COLW = 12.9, 15.0, 2
+    CW = 7.74  # 0.600 em
+    pad_t = 48
     weeks = s["weeks"]
     ncols = len(weeks) * COLW
-    H = int(pad_t + 7 * LH + 26)
+    pad_l = max(int((WIDTH - ncols * CW) / 2), LEFT)
+    H = int(pad_t + 7 * LH + 30)
 
     def level(v):
         for i, cut in enumerate((0, 2, 5, 9)):
@@ -432,11 +429,11 @@ def draw_year(s):
                      f"{sum(len(w) for w in weeks)} days had a contribution", 11)
              + '</g>')
 
-    # ramp legend, so the encoding is never carried by shade alone
-    lx = WIDTH - 6
+    # ramp legend
+    lx = WIDTH - pad_l
     p.append(f'<g opacity="0">{fade(1.30)}'
-             + label(lx - 78, 32, "less", 9, "m-f", "end")
-             + f'<text xml:space="preserve" x="{lx - 72}" y="32" class="d-f" '
+             + label(lx - 92, 32, "less", 9, "m-f", "end")
+             + f'<text xml:space="preserve" x="{lx - 84}" y="32" class="d-f" '
              f'font-size="{FS}">{" ".join(RAMP[1:])}</text>'
              + label(lx, 32, "more", 9, "m-f", "end") + '</g>')
 
@@ -459,19 +456,19 @@ def draw_year(s):
                  f'fill="freeze"/></rect></clipPath>')
         safe = line.replace("&", "&amp;").replace("<", "&lt;")
         p.append(f'<g clip-path="url(#{cid})"><text xml:space="preserve" '
-                 f'x="{pad_l}" y="{y + FS - 0.6:.1f}" class="d-f" '
+                 f'x="{pad_l}" y="{y + FS - 1.2:.1f}" class="d-f" '
                  f'font-size="{FS}">{safe}</text></g>')
 
     for r, lab in ((1, "mon"), (3, "wed"), (5, "fri")):
-        p.append(label(pad_l - 7, pad_t + r * LH + FS - 0.6, lab, 9, "m-f",
+        p.append(label(pad_l - 8, pad_t + r * LH + FS - 1.2, lab, 9, "m-f",
                        "end"))
 
     last_m, last_x = None, -999.0
-    base_y = pad_t + 7 * LH + 13
+    base_y = pad_t + 7 * LH + 16
     for i, w in enumerate(weeks):
         m = int(w[0]["date"][5:7])
         x = pad_l + i * COLW * CW
-        if m != last_m and i < len(weeks) - 1 and x - last_x >= 34:
+        if m != last_m and i < len(weeks) - 1 and x - last_x >= 40:
             p.append(label(x, base_y, MON[m - 1], 9, "m-f"))
             last_x = x
         last_m = m
@@ -496,12 +493,30 @@ def write(path, svg):
 
 def main():
     token = os.environ.get("GITHUB_TOKEN")
-    if not token:
-        sys.exit("GITHUB_TOKEN is not set")
-    login = os.environ.get("GH_LOGIN", "andriidrok1")
+    login = os.environ.get("GH_LOGIN", "KVLNK12305")
     out_dir = os.environ.get("OUT_DIR", ".")
+    cache_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "cached_stats.json")
 
-    s = summarise(fetch(login, token))
+    s = None
+    if token:
+        try:
+            s = summarise(fetch(login, token))
+            try:
+                with open(cache_path, "w", encoding="utf-8") as f:
+                    json.dump(s, f, indent=2)
+            except Exception:
+                pass
+        except Exception as e:
+            print(f"Warning: GraphQL fetch failed ({e}), falling back to cache")
+
+    if not s:
+        if os.path.exists(cache_path):
+            with open(cache_path, "r", encoding="utf-8") as f:
+                s = json.load(f)
+            print(f"Using cached stats for {login}")
+        else:
+            sys.exit("GITHUB_TOKEN is not set and no cached stats available")
+
     files = {"stats.svg": draw_stats(s), "streak.svg": draw_streak(s),
              "langs.svg": draw_langs(s), "year.svg": draw_year(s),
              "quote.svg": draw_quote()}
@@ -520,3 +535,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
