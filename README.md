@@ -104,7 +104,7 @@ I like understanding what's actually happening below the framework layer: bytes 
       <h3>🎧 <a href="https://github.com/KVLNK12305/TuneDeck">TuneDeck</a></h3>
       <kbd>BLUETOOTH TUI</kbd> &nbsp; <samp>python · textual</samp><br><br>
       A keyboard-driven terminal app and CLI for controlling JBL Bluetooth devices from Linux. It talks to the device over RFCOMM using Airoha's RACE protocol to handle ANC, Ambient Aware, TalkThru, multi-band EQ, battery readouts (left/right/case on earbuds), and power off. Includes a <code>--sim</code> mode with sample device models so you can try it without physical hardware.<br><br>
-      <samp>Status: Working tool (tested on JBL Live Pro 2 / Tune series)</samp>
+      <samp>Status: Working tool (tested on JBL Tune 770NC)</samp>
     </td>
     <td width="50%" valign="top">
       <samp><b>[ OPERATION 06 // PERSONAL COMMAND ]</b></samp><br>
