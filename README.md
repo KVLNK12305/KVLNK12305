@@ -24,18 +24,17 @@
       <a href="https://github.com/KVLNK12305"><img src="https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=c9d1d9" alt="GitHub"/></a>
     </td>
     <td width="590" valign="middle" align="left">
-      <samp><b>[ CLASSIFIED DOSSIER // JONIN CLASS OPERATIVE ]</b></samp>
+      <samp><b>[ CHARACTER DOSSIER // PLAYER 1 ]</b></samp>
       <br><br>
       <b>KVLNK12305 // VENKATA LAKSHMI NARASIMHA KUSHAL</b><br>
       <samp>CS Engineering @ Amrita Vishwa Vidyapeetham &nbsp;·&nbsp; Init Club Security Research</samp>
       <br><br>
       <em>"Understanding software down to the byte and packet level, not just the framework layer."</em>
       <br><br>
-      <b>CLASS:</b> Systems Architecture & Defensive Cyber Operations<br>
-      <b>RANK:</b> Jonin // Root-Level Security & Protocol Specialist<br>
-      <b>SPECIALTY:</b> Cyber Defense Daemons · Identity Gateways · Cloud Forensics · Protocol Tooling<br>
-      <b>ARSENAL:</b> Rust · Go · Python · TypeScript · Dart · Linux Kernel · AWS · Azure<br>
-      <b>STATUS:</b> Threat Level: S-Rank // Engineering Stealth Daemons & High-Throughput Engines
+      <b>FOCUS:</b> Defensive security · Cloud forensics · Protocol tooling<br>
+      <b>ARSENAL:</b> Rust · Go · Python · TypeScript · Dart · AWS · Azure<br>
+      <b>RANK:</b> Jonin<br>
+      <b>STATUS:</b> Student, building security tools and poking at protocols
       <br><br>
       <img src="./quote.svg" width="580" alt="The Net is vast and infinite."/>
     </td>
@@ -56,81 +55,73 @@
 
 <img src="./hd-about.svg" width="890" alt="about"/>
 
-> **CS Engineering at Amrita Vishwa Vidyapeetham · Init Club Security Research**<br>
-> Focusing on systems engineering, autonomous cyber defense daemons, cloud forensic tracing, and protocol-level tooling.
+I'm a CS engineering student at Amrita Vishwa Vidyapeetham and part of Init Club's security research group.
 
-Understanding computing down to the silicon, byte, and packet level — refusing to treat lower abstraction layers as black boxes. Currently operating deep in systems internals with Rust and Go, reverse-engineering hardware and network protocols, orchestrating non-human identity security, and building bare-metal developer tooling.
+I like understanding what's actually happening below the framework layer: bytes on the wire, processes, memory. Most of my projects sit in defensive security, cloud forensics, and protocol tooling, mainly in Rust, Go and Python. Lately I've been reverse-engineering a Bluetooth protocol, building an identity gateway for machine-to-machine traffic, and writing tools that reconstruct what happened during cloud incidents.
 
-> <i>"Admiration is the emotion furthest from understanding."</i> — Sōsuke Aizen
+> *"Admiration is the emotion furthest from understanding."* — Sōsuke Aizen
 
 <img src="./hd-projects.svg" width="890" alt="projects"/>
 
 <table border="0" width="100%">
   <tr>
     <td width="50%" valign="top">
-      <samp><b>[ OPERATION 01 // S-RANK DAEMON ]</b></samp><br>
+      <samp><b>[ OPERATION 01 // HOST DEFENSE ]</b></samp><br>
       <h3>👻 <a href="https://github.com/KVLNK12305/GhostShell">GhostShell</a></h3>
-      <kbd>DEFENSIVE CYBER OPS</kbd> &nbsp; <samp>rust · linux-kernel</samp><br><br>
-      <b>Autonomous DCO Daemon for Linux Infrastructure Protection</b><br>
-      Silent, autonomous defensive cyber operations daemon operating in-process at the silicon boundary. Implements zero-overhead host protection, process isolation, and automated threat containment in memory-safe systems Rust.<br><br>
-      <samp>⚡ <b>VECTOR:</b> Host-Level DCO · Process Hardening · Rust 1.70+ · Memory Safety</samp>
+      <kbd>HOST DEFENSE</kbd> &nbsp; <samp>rust · linux</samp><br><br>
+      A defensive background daemon for Linux hosts written in Rust. It monitors active TCP/UDP sockets, process table lineage (catching suspicious child spawns like shells under web servers or cryptominers), and authentication logs. When an anomaly crosses its threshold, it can terminate the offending process and export encrypted threat logs.<br><br>
+      <samp>Status: Runnable daemon with integration test suite</samp>
     </td>
     <td width="50%" valign="top">
-      <samp><b>[ OPERATION 02 // S-RANK GATEWAY ]</b></samp><br>
+      <samp><b>[ OPERATION 02 // IDENTITY GATEWAY ]</b></samp><br>
       <h3>🛡️ <a href="https://github.com/KVLNK12305/Akira">Akira</a></h3>
-      <kbd>NIST 800-63-2 COMPLIANT</kbd> &nbsp; <samp>rust · bun · react · payment-infra</samp><br><br>
-      <b>Secure Non-Human Identity Gateway & AI Risk Sentinel</b><br>
-      Production-grade non-human identity security gateway purpose-built for fintech and payment rails. Features an automated AI risk sentinel, cryptographic session verification, and zero-trust machine-to-machine containment.<br><br>
-      <samp>⚡ <b>VECTOR:</b> Non-Human Identity · Automated Containment · Payment Security · Zero-Trust</samp>
+      <kbd>IDENTITY GATEWAY</kbd> &nbsp; <samp>rust · bun · react</samp><br><br>
+      A gateway for non-human identities (service accounts, API clients) aimed at payment systems. It cryptographically verifies sessions, incorporates Argon2id and MFA patterns following NIST 800-63 guidelines, and scores requests against learned baselines to automatically quarantine machine credentials that exhibit anomalous IP, scope, or velocity behavior.<br><br>
+      <samp>Status: Working prototype with a Bun/React dashboard and attack simulator</samp>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <samp><b>[ OPERATION 03 // A-RANK FORENSICS ]</b></samp><br>
+      <samp><b>[ OPERATION 03 // CLOUD FORENSICS ]</b></samp><br>
       <h3>⚡ <a href="https://github.com/KVLNK12305/KlaudTrace">KlaudTrace</a></h3>
-      <kbd>INCIDENT FORENSICS</kbd> &nbsp; <samp>go · aws · distributed-systems</samp><br><br>
-      <b>AWS Incident Reconstruction for Fintech Environments</b><br>
-      High-throughput forensic tracing and incident reconstruction engine for mission-critical cloud infrastructure. Reconstructs asynchronous event pipelines, state drifts, and blast radiuses across distributed microservices.<br><br>
-      <samp>⚡ <b>VECTOR:</b> Cloud Forensics · AWS Event Pipeline · Distributed Tracing · Go 1.22+</samp>
+      <kbd>INCIDENT FORENSICS</kbd> &nbsp; <samp>go · aws</samp><br><br>
+      A Go tool that reconstructs what happened during an incident in an AWS environment. It follows events through asynchronous pipelines across services to work out what changed, identify state drifts, and determine how far the damage spread across the infrastructure.<br><br>
+      <samp>Status: Active project</samp>
     </td>
     <td width="50%" valign="top">
-      <samp><b>[ OPERATION 04 // A-RANK CLOUD ENGINE ]</b></samp><br>
+      <samp><b>[ OPERATION 04 // CLOUD TRIAGE ]</b></samp><br>
       <h3>☁️ <a href="https://github.com/KVLNK12305/CloudPulse">CloudPulse</a></h3>
-      <kbd>CLOSED-LOOP TRIAGE</kbd> &nbsp; <samp>python · azure · automated-remediation</samp><br><br>
-      <b>Autonomous Azure FinOps & Threat Surface Triage Engine</b><br>
-      Autonomous cloud surface triage and cost governance engine. Executes closed-loop controlled remediation, correlates security posture with multi-tenant resource telemetry, and delivers deterministic risk scoring across cloud estates.<br><br>
-      <samp>⚡ <b>VECTOR:</b> Cloud Surface Triage · Autonomous FinOps · Closed-Loop Remediation</samp>
+      <kbd>CLOUD TRIAGE</kbd> &nbsp; <samp>python · azure</samp><br><br>
+      A Python tool for Azure that looks at security posture and cloud spend together. It evaluates resource graphs and telemetry to give resources a combined risk score, and supports human-gated remediations like mutating open NSG inbound rules from Allow to Deny and isolating workloads.<br><br>
+      <samp>Status: Offline demo with seeded telemetry (Azure test estate decommissioned to avoid ongoing costs)</samp>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <samp><b>[ OPERATION 05 // HARDWARE PROTOCOL ]</b></samp><br>
       <h3>🎧 <a href="https://github.com/KVLNK12305/TuneDeck">TuneDeck</a></h3>
-      <kbd>HARDWARE REVERSING</kbd> &nbsp; <samp>python · textual-tui · bluetooth-rfcomm</samp><br><br>
-      <b>Terminal Controller & Textual TUI for JBL Devices on Linux</b><br>
-      High-performance terminal controller and keyboard-driven Textual TUI for Bluetooth audio hardware. Reverse-engineers proprietary protocol payloads for ANC (Active Noise Cancellation), Ambient Aware, and real-time multi-band EQ.<br><br>
-      <samp>⚡ <b>VECTOR:</b> Bluetooth RFCOMM · Protocol Reverse-Engineering · Textual TUI · Audio DSP</samp>
+      <kbd>BLUETOOTH TUI</kbd> &nbsp; <samp>python · textual</samp><br><br>
+      A keyboard-driven terminal app and CLI for controlling JBL Bluetooth devices from Linux. It talks to the device over RFCOMM using Airoha's RACE protocol to handle ANC, Ambient Aware, TalkThru, multi-band EQ, battery readouts (left/right/case on earbuds), and power off. Includes a <code>--sim</code> mode with sample device models so you can try it without physical hardware.<br><br>
+      <samp>Status: Working tool (tested on JBL Live Pro 2 / Tune series)</samp>
     </td>
     <td width="50%" valign="top">
-      <samp><b>[ OPERATION 06 // CHRONO OS ]</b></samp><br>
+      <samp><b>[ OPERATION 06 // PERSONAL COMMAND ]</b></samp><br>
       <h3>⏳ <a href="https://github.com/KVLNK12305/K.A.I.R.O">K.A.I.R.O</a></h3>
-      <kbd>168-HOUR CHRONO ENGINE</kbd> &nbsp; <samp>dart · flutter · bento-system</samp><br><br>
-      <b>Brutalist Life OS & Cognitive Personal Command Center</b><br>
-      Brutalist cognitive governor and personal command center engineered for absolute self-accountability. Operates on a strict 168-hour fixed-time economy with zero-friction energy telemetry and the Neo-Pastel Bento design system.<br><br>
-      <samp>⚡ <b>VECTOR:</b> Time Economy · State Machines · Cross-Platform · Brutalist UI</samp>
+      <kbd>LIFE OS</kbd> &nbsp; <samp>dart · flutter</samp><br><br>
+      A personal planner app built in Flutter (Material 3, Isar on-device DB, Riverpod) centered on the premise that a week is a strict budget of 168 hours. Features an editorial Bento UI layout that tracks time expenditure, maps energy peaks, and logs external expenses via background broadcast receivers.<br><br>
+      <samp>Status: Working on-device application</samp>
     </td>
   </tr>
 </table>
 
 <img src="./hd-stack.svg" width="890" alt="stack"/>
 
-| CLASSIFICATION | COMBAT ARSENAL & TOOLING | OPERATIONAL FOCUS |
+| Category | Tools | What I've used them for |
 | :--- | :--- | :--- |
-| **⚔️ RING 0 / SYSTEMS & DCO** | `rust` · `c` · `c++` · `linux kernel` · `posix` · `x86_64 asm` | Low-level systems, kernel memory management, autonomous cyber daemons |
-| **🗡️ CLOUD FORENSICS & RECON** | `go` · `aws` · `azure` · `distributed tracing` · `docker` | Cloud incident reconstruction, automated FinOps triage, blast radius analysis |
-| **🏹 PROTOCOLS & IDENTITY** | `rust` · `python` · `bluetooth rfcomm` · `zero-trust` · `gdb` · `wireshark` | Non-human identity gateways, protocol reversing, hardware DSP packet crafting |
-| **⚡ APIS, ENGINES & HUDS** | `typescript` · `bun` · `dart` · `flutter` · `textual tui` · `react` | Command center interfaces, cross-platform state machines, real-time telemetry |
-| **🧬 FORBIDDEN SPECIALTIES** | `in-process telemetry` · `hardware protocol reversing` · `closed-loop triage` | Low-latency IPC, automated risk sentinel containment, sub-millisecond execution |
+| **Systems** | `rust` · `c` · `c++` · `posix` | Host defense daemon (GhostShell), terminal audio controller (TuneDeck) |
+| **Cloud** | `go` · `aws` · `azure` · `docker` | Incident reconstruction (KlaudTrace), cost and risk triage (CloudPulse) |
+| **Protocols & identity** | `python` · `rust` · `bluetooth rfcomm` · `wireshark` · `gdb` | Reverse-engineering JBL's protocol (TuneDeck), machine identity gateway (Akira) |
+| **Apps & interfaces** | `typescript` · `bun` · `react` · `dart` · `flutter` · `textual` | Akira dashboard, K.A.I.R.O personal planner, TuneDeck TUI |
 
 <br>
 
@@ -164,7 +155,7 @@ Understanding computing down to the silicon, byte, and packet level — refusing
 | RANK | OPERATIVE | SCORE | CLEARANCE | STATUS |
 | :---: | :---: | :---: | :---: | :---: |
 | **1ST** | **`KVLNK`** | **9,999,990** | **RING 0 ROOT** | **`CHAMPION // JONIN`** |
-| 2ND | `KUSHAL` | 8,420,100 | KERNEL SPACE | `ACTIVE // 0-DAY` |
+| 2ND | `KUSHAL` | 8,420,100 | KERNEL SPACE | `ACTIVE` |
 | 3RD | `GHOST` | 7,108,900 | DCO DAEMON | `DEPLOYED` |
 | 4TH | `OKABE` | 5,048,596 | WORLD LINE 1.04 | `DIVERGENT` |
 | 5TH | `LAIN` | 4,000,000 | THE WIRED LVL 7 | `CONNECTED` |
@@ -185,10 +176,7 @@ Understanding computing down to the silicon, byte, and packet level — refusing
 
 <img src="./hd-about-this-page.svg" width="890" alt="about this page"/>
 
-Every graphic on this dossier is compiled and rendered inside this repository by an automated GitHub Action.<br>
-Zero third-party trackers, zero external rate-limits, zero broken badges.
-
-`ascii.svg` compiles an authentic source portrait through a custom luminance character ramp via `scripts/make_portrait.py`. Telemetry stat graphics, section dividers, and `quote.svg` are generated directly from GitHub's GraphQL API. All typography is mathematically pinned and inlined via subset JetBrains Mono WOFF2 base64 data URIs.
+The SVGs on this page are generated by a GitHub Action in this repo. `ascii.svg` is a portrait run through a luminance character ramp (`scripts/make_portrait.py`); the stats, section dividers and quote are built from GitHub's GraphQL API. Fonts are a subsetted JetBrains Mono, inlined as base64 so they render without extra requests. The badges, trophy image and GIFs are still loaded from external services.
 
 <br>
 
