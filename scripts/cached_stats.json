@@ -4,7 +4,6 @@
   "best_week": 72,
   "weekly": [
     0,
-    0,
     13,
     0,
     1,
@@ -55,16 +54,10 @@
     23,
     33,
     55,
-    33
+    33,
+    0
   ],
   "weeks": [
-    [
-      {
-        "contributionCount": 0,
-        "date": "2025-10-25",
-        "weekday": 6
-      }
-    ],
     [
       {
         "contributionCount": 0,
@@ -1987,6 +1980,13 @@
         "contributionCount": 0,
         "date": "2026-10-24",
         "weekday": 6
+      }
+    ],
+    [
+      {
+        "contributionCount": 0,
+        "date": "2026-10-25",
+        "weekday": 0
       }
     ]
   ],
