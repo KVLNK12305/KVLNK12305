@@ -61,11 +61,6 @@
     [
       {
         "contributionCount": 0,
-        "date": "2025-11-12",
-        "weekday": 3
-      },
-      {
-        "contributionCount": 0,
         "date": "2025-11-13",
         "weekday": 4
       },
@@ -1987,13 +1982,18 @@
         "contributionCount": 0,
         "date": "2026-11-11",
         "weekday": 3
+      },
+      {
+        "contributionCount": 0,
+        "date": "2026-11-12",
+        "weekday": 4
       }
     ]
   ],
   "current": {
-    "length": 2,
-    "start": "2026-11-09",
-    "end": "2026-11-10"
+    "length": 0,
+    "start": null,
+    "end": null
   },
   "longest": {
     "length": 12,
