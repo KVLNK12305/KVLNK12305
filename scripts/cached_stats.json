@@ -1,6 +1,6 @@
 {
-  "total": 910,
-  "active": 150,
+  "total": 930,
+  "active": 155,
   "best_week": 72,
   "weekly": [
     2,
@@ -54,16 +54,11 @@
     7,
     7,
     11,
-    1,
-    0
+    6,
+    15
   ],
   "weeks": [
     [
-      {
-        "contributionCount": 0,
-        "date": "2025-11-28",
-        "weekday": 5
-      },
       {
         "contributionCount": 2,
         "date": "2025-11-29",
@@ -1927,7 +1922,7 @@
         "weekday": 0
       },
       {
-        "contributionCount": 0,
+        "contributionCount": 5,
         "date": "2026-11-16",
         "weekday": 1
       },
@@ -1974,26 +1969,31 @@
         "weekday": 2
       },
       {
-        "contributionCount": 0,
+        "contributionCount": 1,
         "date": "2026-11-25",
         "weekday": 3
       },
       {
-        "contributionCount": 0,
+        "contributionCount": 5,
         "date": "2026-11-26",
         "weekday": 4
       },
       {
-        "contributionCount": 0,
+        "contributionCount": 8,
         "date": "2026-11-27",
         "weekday": 5
+      },
+      {
+        "contributionCount": 1,
+        "date": "2026-11-28",
+        "weekday": 6
       }
     ]
   ],
   "current": {
-    "length": 0,
-    "start": null,
-    "end": null
+    "length": 4,
+    "start": "2026-11-25",
+    "end": "2026-11-28"
   },
   "longest": {
     "length": 12,
@@ -2003,15 +2003,15 @@
   "by_size": [
     [
       "Python",
-      1687702
+      2049312
+    ],
+    [
+      "JavaScript",
+      810126
     ],
     [
       "Dart",
       797905
-    ],
-    [
-      "JavaScript",
-      705512
     ],
     [
       "TypeScript",
